@@ -1,0 +1,11 @@
+{
+	"files.exclude": {
+		"C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/.git": true,
+		"C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/.vs": true,
+		"C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/.vscode": true,
+		"C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/Content": true,
+		"C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/DerivedDataCache": true,
+		"C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/Intermediate": true,
+		"C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved": true
+	}
+}
