@@ -1,30 +1,58 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-
 #include "TankGameModeBase.h"
+#include "ToonTanks/Pawns/PawnTank.h"
+#include "ToonTanks/Pawns/PawnTurret.h"
+#include "Kismet/GameplayStatics.h"
+#include "Engine/World.h"
 
-void ATankGameModeBase::BeginPlay() 
+void ATankGameModeBase::BeginPlay()
 {
-    // Get refences and game win/lose conditions.
+    Super::BeginPlay();
 
-    // Call Handle GameStart() to initialize the start countdown, turret actiation, pawn check, etc.
+    HandleGameStart();
 }
 
-void ATankGameModeBase::ActorDied(AActor* DeadActor) 
+void ATankGameModeBase::ActorDied(AActor *DeadActor)
 {
-    // Check what yupr og svyor died. If Turret, tally. If Player -> go to lose condition.
-    UE_LOG(LogTemp, Warning, TEXT("A Pawn Died."));
+    if (DeadActor == PlayerTank)
+    {
+        PlayerTank->HandleDestruction();
+        HandleGameOver(false);
+    }
+    else if (APawnTurret *DestroyedTurret = Cast<APawnTurret>(DeadActor))
+    {
+        DestroyedTurret->HandleDestruction();
+
+        if (--TargetTurrets == 0)
+        {
+            HandleGameOver(true);
+        }
+    }
 }
 
-void ATankGameModeBase::HandleGameStart() 
+void ATankGameModeBase::HandleGameStart()
 {
     // Initialize the start countdown, turret activation, pawn check, etc.
     // Call Blueprint version GameStart();
+    TargetTurrets = GetTargetTurretCount();
+    PlayerTank = Cast<APawnTank>(UGameplayStatics::GetPlayerPawn(this, 0));
+
+    GameStart();
 }
 
-void ATankGameModeBase::HandleGameOver(bool PlayerWon) 
+void ATankGameModeBase::HandleGameOver(bool PlayerWon)
 {
     // See if the player has destroyed all the turrets, show win result.
     // else if turret destroyed player show lose result.
     // Call blueprint version GameOver(bool);
+    GameOver(PlayerWon);
+}
+
+int32 ATankGameModeBase::GetTargetTurretCount()
+{
+    TArray<AActor *> TurretActors;
+    UGameplayStatics::GetAllActorsOfClass(GetWorld(), APawnTurret::StaticClass(), TurretActors);
+
+    return TurretActors.Num();
 }
