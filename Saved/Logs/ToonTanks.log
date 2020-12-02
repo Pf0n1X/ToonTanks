@@ -726,3 +726,78 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.12.02-20.01.15:716][557]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
 [2020.12.02-20.01.15:766][557]LogContentBrowser: Native class hierarchy populated in 0.0130 seconds. Added 3433 classes and 827 folders.
 [2020.12.02-20.01.15:766][557]Display: HotReload took 16.8s.
+[2020.12.02-20.03.56:530][665]LogSlate: Took 0.149483 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.12.02-20.04.38:783][627]LogSlate: Took 0.016484 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.12.02-20.04.38:809][627]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/Widgets/WBP_GameStart.WBP_GameStart
+[2020.12.02-20.04.40:252][627]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 125 classes and 0 folders.
+[2020.12.02-20.04.43:999][627]LogSlate: Took 0.019290 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.12.02-20.04.44:083][627]LogSlate: Took 0.077027 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2020.12.02-20.05.23:709][701]LogUObjectHash: Compacting FUObjectHashTables data took   5.70ms
+[2020.12.02-20.05.23:726][701]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Main' took 0.131
+[2020.12.02-20.05.23:739][701]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Widgets/WBP_GameStart] ([1] browsable assets)...
+[2020.12.02-20.05.23:740][701]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Widgets/WBP_GameStart]
+[2020.12.02-20.05.23:996][701]LogSavePackage: Moving '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/WBP_GameStart_Auto17647B4D74D2748748BA6248F5F32B8D7.tmp' to '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/Autosaves/Game/Blueprints/Widgets/WBP_GameStart_Auto1.uasset'
+[2020.12.02-20.05.24:041][701]LogFileHelpers: Auto-saving content packages took 0.315
+[2020.12.02-20.15.15:856][114]BlueprintLog: New page: Compile WBP_GameStart
+[2020.12.02-20.15.15:940][114]LogUObjectHash: Compacting FUObjectHashTables data took   4.98ms
+[2020.12.02-20.15.16:559][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Widgets/WBP_GameStart" FILE="../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Content/Blueprints/Widgets/WBP_GameStart.uasset" SILENT=true
+[2020.12.02-20.15.16:605][159]LogSavePackage: Moving '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/WBP_GameStart6F907B464FFA6D06453931B729339BBC.tmp' to '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Content/Blueprints/Widgets/WBP_GameStart.uasset'
+[2020.12.02-20.15.16:636][159]AssetCheck: New page: Asset Save: WBP_GameStart
+[2020.12.02-20.15.16:636][159]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Widgets/WBP_GameStart.WBP_GameStart
+[2020.12.02-20.15.35:023][500]BlueprintLog: New page: Collapse to Function
+[2020.12.02-20.16.31:594][256]LogUObjectHash: Compacting FUObjectHashTables data took   6.02ms
+[2020.12.02-20.16.31:598][256]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Main' took 0.038
+[2020.12.02-20.16.31:599][256]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Widgets/WBP_GameStart] ([1] browsable assets)...
+[2020.12.02-20.16.31:599][256]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Widgets/WBP_GameStart]
+[2020.12.02-20.16.31:971][256]LogSavePackage: Moving '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/WBP_GameStart_Auto2C1D5E5144BC777786DCAEF9BD0F4B3D8.tmp' to '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/Autosaves/Game/Blueprints/Widgets/WBP_GameStart_Auto2.uasset'
+[2020.12.02-20.16.31:973][256]LogFileHelpers: Auto-saving content packages took 0.374
+[2020.12.02-20.17.33:842][ 69]LogSlate: Took 0.011852 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2020.12.02-20.22.25:245][389]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2020.12.02-20.22.25:442][390]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 4
+[2020.12.02-20.22.25:443][390]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2020.12.02-20.22.25:469][390]LogMaterial: Display: Missing cached shader map for material Material_1, compiling. 
+[2020.12.02-20.22.25:498][391]LogMaterial: Display: Missing cached shader map for material Material_2, compiling. 
+[2020.12.02-20.22.25:851][395]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 8
+[2020.12.02-20.22.25:851][395]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
+[2020.12.02-20.22.26:534][401]LogMaterial: Display: Missing cached shader map for material Material_3, compiling. 
+[2020.12.02-20.22.26:637][404]LogMaterial: Display: Missing cached shader map for material Material_4, compiling. 
+[2020.12.02-20.22.26:680][405]LogMaterial: Display: Missing cached shader map for material Material_5, compiling. 
+[2020.12.02-20.22.29:122][555]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 14
+[2020.12.02-20.22.29:401][568]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 10
+[2020.12.02-20.22.29:631][570]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2020.12.02-20.22.29:833][580]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
+[2020.12.02-20.22.30:408][600]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 3
+[2020.12.02-20.22.30:536][605]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2020.12.02-20.22.30:644][611]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2020.12.02-20.24.44:988][747]BlueprintLog: New page: Compile WBP_GameStart
+[2020.12.02-20.24.45:031][747]LogUObjectHash: Compacting FUObjectHashTables data took   5.21ms
+[2020.12.02-20.24.46:257][844]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Widgets/WBP_GameStart" FILE="../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Content/Blueprints/Widgets/WBP_GameStart.uasset" SILENT=true
+[2020.12.02-20.24.46:291][844]LogSavePackage: Moving '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/WBP_GameStart24AFF4B9446FE0CB8B04E98EA7402657.tmp' to '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Content/Blueprints/Widgets/WBP_GameStart.uasset'
+[2020.12.02-20.24.46:306][844]AssetCheck: New page: Asset Save: WBP_GameStart
+[2020.12.02-20.24.46:307][844]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Widgets/WBP_GameStart.WBP_GameStart
+[2020.12.02-20.26.32:337][493]LogUObjectHash: Compacting FUObjectHashTables data took   6.56ms
+[2020.12.02-20.26.32:341][493]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Main' took 0.051
+[2020.12.02-20.26.32:342][493]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Widgets/WBP_GameStart] ([1] browsable assets)...
+[2020.12.02-20.26.32:342][493]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Widgets/WBP_GameStart]
+[2020.12.02-20.26.32:372][493]LogSavePackage: Moving '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/WBP_GameStart_Auto3300AA6064954CC726610EC84BDACC965.tmp' to '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/Autosaves/Game/Blueprints/Widgets/WBP_GameStart_Auto3.uasset'
+[2020.12.02-20.26.32:374][493]LogFileHelpers: Auto-saving content packages took 0.032
+[2020.12.02-20.26.57:689][763]BlueprintLog: New page: Compile WBP_GameStart
+[2020.12.02-20.26.57:728][763]LogUObjectHash: Compacting FUObjectHashTables data took   4.85ms
+[2020.12.02-20.26.58:365][802]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Widgets/WBP_GameStart" FILE="../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Content/Blueprints/Widgets/WBP_GameStart.uasset" SILENT=true
+[2020.12.02-20.26.58:393][802]LogSavePackage: Moving '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/WBP_GameStart7E6C931C4BB6C2E4900E6998588BF00D.tmp' to '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Content/Blueprints/Widgets/WBP_GameStart.uasset'
+[2020.12.02-20.26.58:408][802]AssetCheck: New page: Asset Save: WBP_GameStart
+[2020.12.02-20.26.58:409][802]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Widgets/WBP_GameStart.WBP_GameStart
+[2020.12.02-20.27.20:270][177]LogSlate: Window 'WBP_GameStart' being destroyed
+[2020.12.02-20.27.20:277][177]LogSlate: Window 'WBP_GameStart' being destroyed
+[2020.12.02-20.27.20:410][177]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.12.02-20.27.20:410][177]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.02-20.27.20:504][177]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.12.02-20.27.20:504][177]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.02-20.27.25:089][662]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Content/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.12.02-20.27.25:250][662]LogUObjectHash: Compacting FUObjectHashTables data took   4.75ms
+[2020.12.02-20.27.25:290][662]LogSavePackage: Moving '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/MainEA528FC145FE9AAB1D475E81231C5CBA.tmp' to '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Content/Maps/Main.umap'
+[2020.12.02-20.27.25:343][662]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main_BuiltData" FILE="../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Content/Maps/Main_BuiltData.uasset" SILENT=true
+[2020.12.02-20.27.25:485][662]LogSavePackage: Moving '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/Main_BuiltData61280516450C05A742FFBF9462C566A7.tmp' to '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Content/Maps/Main_BuiltData.uasset'
+[2020.12.02-20.27.25:507][662]AssetCheck: New page: Asset Save: multiple assets
+[2020.12.02-20.27.25:508][662]LogContentValidation: Display: Validating World /Game/Maps/Main.Main
+[2020.12.02-20.27.25:508][662]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Main_BuiltData.Main_BuiltData
