@@ -801,3 +801,44 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.12.02-20.27.25:507][662]AssetCheck: New page: Asset Save: multiple assets
 [2020.12.02-20.27.25:508][662]LogContentValidation: Display: Validating World /Game/Maps/Main.Main
 [2020.12.02-20.27.25:508][662]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Main_BuiltData.Main_BuiltData
+[2020.12.02-20.28.40:343][173]LogUObjectHash: Compacting FUObjectHashTables data took   4.80ms
+[2020.12.02-20.28.58:518][864]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
+[2020.12.02-20.28.58:596][864]LogMetaData: Removing '/Game/Blueprints/Widgets/WBP_GameEnd.SKEL_WBP_GameEnd_C' ref from Metadata '/Game/Blueprints/Widgets/WBP_GameStart_2.PackageMetaData'
+[2020.12.02-20.28.58:597][864]LogMetaData: Removing '/Game/Blueprints/Widgets/WBP_GameEnd.WBP_GameEnd_C' ref from Metadata '/Game/Blueprints/Widgets/WBP_GameStart_2.PackageMetaData'
+[2020.12.02-20.28.58:913][864]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Widgets/WBP_GameEnd" FILE="../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Content/Blueprints/Widgets/WBP_GameEnd.uasset" SILENT=true
+[2020.12.02-20.28.58:945][864]LogSavePackage: Moving '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/WBP_GameEnd82D5656E44156C75FC46B09CFF6DEDE4.tmp' to '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Content/Blueprints/Widgets/WBP_GameEnd.uasset'
+[2020.12.02-20.28.59:147][864]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2020.12.02-20.28.59:176][864]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2020.12.02-20.28.59:195][864]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2020.12.02-20.28.59:274][864]AssetCheck: New page: Asset Save: WBP_GameEnd
+[2020.12.02-20.28.59:274][864]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Widgets/WBP_GameEnd.WBP_GameEnd
+[2020.12.02-20.29.02:435][914]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/Widgets/WBP_GameEnd.WBP_GameEnd
+[2020.12.02-20.30.09:559][ 33]LogSlate: Window 'Change Variable Type' being destroyed
+[2020.12.02-20.30.26:050][677]LogSlate: Window 'Find in Blueprints' being destroyed
+[2020.12.02-20.30.26:056][677]LogSlate: Window 'Find in Blueprints' being destroyed
+[2020.12.02-20.34.41:055][ 30]BlueprintLog: New page: Compile WBP_GameEnd
+[2020.12.02-20.34.41:085][ 30]LogUObjectHash: Compacting FUObjectHashTables data took   3.91ms
+[2020.12.02-20.34.42:026][ 89]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Widgets/WBP_GameEnd" FILE="../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Content/Blueprints/Widgets/WBP_GameEnd.uasset" SILENT=true
+[2020.12.02-20.34.42:053][ 89]LogSavePackage: Moving '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/WBP_GameEndA2DECF3C46B0019DBC66399A92D5E4EE.tmp' to '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Content/Blueprints/Widgets/WBP_GameEnd.uasset'
+[2020.12.02-20.34.42:068][ 89]AssetCheck: New page: Asset Save: WBP_GameEnd
+[2020.12.02-20.34.42:068][ 89]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Widgets/WBP_GameEnd.WBP_GameEnd
+[2020.12.02-20.35.03:943][886]BlueprintLog: New page: Compile WBP_GameEnd
+[2020.12.02-20.35.03:972][886]LogUObjectHash: Compacting FUObjectHashTables data took   3.85ms
+[2020.12.02-20.35.04:594][923]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Widgets/WBP_GameEnd" FILE="../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Content/Blueprints/Widgets/WBP_GameEnd.uasset" SILENT=true
+[2020.12.02-20.35.04:615][923]LogSavePackage: Moving '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/WBP_GameEnd94EBD0FA47953E26B9F21AB7AABA1E29.tmp' to '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Content/Blueprints/Widgets/WBP_GameEnd.uasset'
+[2020.12.02-20.35.04:627][923]AssetCheck: New page: Asset Save: WBP_GameEnd
+[2020.12.02-20.35.04:628][923]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Widgets/WBP_GameEnd.WBP_GameEnd
+[2020.12.02-20.35.19:105][ 91]BlueprintLog: New page: Compile WBP_GameEnd
+[2020.12.02-20.35.19:132][ 91]LogUObjectHash: Compacting FUObjectHashTables data took   3.57ms
+[2020.12.02-20.35.19:690][122]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Widgets/WBP_GameEnd" FILE="../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Content/Blueprints/Widgets/WBP_GameEnd.uasset" SILENT=true
+[2020.12.02-20.35.19:712][122]LogSavePackage: Moving '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/WBP_GameEndD75078FD48E18489C5529CBCB6341D50.tmp' to '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Content/Blueprints/Widgets/WBP_GameEnd.uasset'
+[2020.12.02-20.35.19:727][122]AssetCheck: New page: Asset Save: WBP_GameEnd
+[2020.12.02-20.35.19:727][122]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Widgets/WBP_GameEnd.WBP_GameEnd
+[2020.12.02-20.35.22:526][368]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Content/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.12.02-20.35.22:553][368]LogUObjectHash: Compacting FUObjectHashTables data took   3.90ms
+[2020.12.02-20.35.22:594][368]LogSavePackage: Moving '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/Main3EBBA1994158022BA181319C163C0A4D.tmp' to '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Content/Maps/Main.umap'
+[2020.12.02-20.35.22:642][368]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main_BuiltData" FILE="../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Content/Maps/Main_BuiltData.uasset" SILENT=true
+[2020.12.02-20.35.22:689][368]LogSavePackage: Moving '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/Main_BuiltData6F6A075D4416159BC2D8C296872BDE2E.tmp' to '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Content/Maps/Main_BuiltData.uasset'
+[2020.12.02-20.35.22:712][368]AssetCheck: New page: Asset Save: multiple assets
+[2020.12.02-20.35.22:712][368]LogContentValidation: Display: Validating World /Game/Maps/Main.Main
+[2020.12.02-20.35.22:712][368]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Main_BuiltData.Main_BuiltData
