@@ -26,7 +26,7 @@ private:
 	USceneComponent* ProjectileSpawnPoint;
 	
 	// VARIABLES
-	UPROPERTY(EditAnywhere, BLueprintReadOnly, Category = "Projectile Type", meta = (AllowPrivateAccess))
+	UPROPERTY(EditAnywhere, BLueprintReadOnly, Category = "Projectile Type", meta = (AllowPrivateAccess = "true"))
 	TSubclassOf<AProjectileBase> ProjectileClass;
 
 public:
