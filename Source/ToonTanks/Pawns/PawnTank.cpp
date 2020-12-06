@@ -3,6 +3,7 @@
 
 #include "PawnTank.h"
 #include "GameFramework/SpringArmComponent.h"
+#include "GameFramework/Actor.h"
 #include "Camera/CameraComponent.h"
 #include "Components/InputComponent.h"
 #include "Engine/World.h"
@@ -28,7 +29,17 @@ void APawnTank::BeginPlay()
 void APawnTank::HandleDestruction() 
 {
     Super::HandleDestruction();
+
     // Hide Player. TODO - Create new function to handle this.
+    bIsPlayerAlive = false;
+
+    SetActorHiddenInGame(true);
+    SetActorTickEnabled(false);
+}
+
+bool APawnTank::GetIsPlayerAlive() 
+{
+    return bIsPlayerAlive;
 }
 
 // Called every frame
