@@ -1,8 +1,8 @@
-﻿Log file open, 12/06/20 15:29:40
+﻿Log file open, 12/08/20 18:12:12
 LogInit: Display: Running engine for game: ToonTanks
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.285575
+LogStats: Stats thread started at 0.818555
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +2:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -194,1228 +194,509 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.12.06-13.29.40:843][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2020.12.06-13.29.40:843][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2020.12.06-13.29.40:843][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/Config/Windows/Engine.ini]
-[2020.12.06-13.29.40:843][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.12.06-13.29.40:843][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
-[2020.12.06-13.29.40:843][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
-[2020.12.06-13.29.40:843][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/Config/Windows/Engine.ini]
-[2020.12.06-13.29.40:843][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/Config/Windows/Engine.ini]
-[2020.12.06-13.29.40:843][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.12.06-13.29.40:843][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.12.06-13.29.40:843][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.12.06-13.29.40:843][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.12.06-13.29.40:843][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.12.06-13.29.40:843][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.12.06-13.29.40:843][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.12.06-13.29.40:843][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.12.06-13.29.40:843][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.12.06-13.29.40:843][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.12.06-13.29.40:843][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.12.06-13.29.40:843][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.12.06-13.29.40:843][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.12.06-13.29.40:843][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2020.12.06-13.29.40:843][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/Config/Windows/Engine.ini]
-[2020.12.06-13.29.40:843][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.12.06-13.29.40:843][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.12.06-13.29.40:843][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.12.06-13.29.40:843][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.12.06-13.29.40:843][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.12.06-13.29.40:843][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.12.06-13.29.40:843][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2020.12.06-13.29.40:843][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.12.06-13.29.40:843][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.12.06-13.29.40:843][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.12.06-13.29.40:843][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.12.06-13.29.40:843][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.12.06-13.29.40:843][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.12.06-13.29.40:844][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/Config/Windows/Engine.ini]
-[2020.12.06-13.29.40:844][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/Config/Windows/Engine.ini]
-[2020.12.06-13.29.40:847][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/Config/Windows/Scalability.ini]
-[2020.12.06-13.29.40:847][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.12.06-13.29.40:847][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.12.06-13.29.40:847][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/Config/Windows/Scalability.ini]
-[2020.12.06-13.29.40:847][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.12.06-13.29.40:847][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/Config/Windows/Scalability.ini]
-[2020.12.06-13.29.40:847][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.12.06-13.29.40:847][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.12.06-13.29.40:847][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.12.06-13.29.40:847][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.12.06-13.29.40:847][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.12.06-13.29.40:847][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.12.06-13.29.40:847][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.12.06-13.29.40:847][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.12.06-13.29.40:847][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.12.06-13.29.40:847][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.12.06-13.29.40:847][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.12.06-13.29.40:847][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.12.06-13.29.40:847][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.12.06-13.29.40:847][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.12.06-13.29.40:847][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.12.06-13.29.40:847][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.12.06-13.29.40:847][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.12.06-13.29.40:847][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.12.06-13.29.40:847][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/Config/Windows/Scalability.ini]
-[2020.12.06-13.29.40:847][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.12.06-13.29.40:847][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.12.06-13.29.40:847][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.12.06-13.29.40:847][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.12.06-13.29.40:847][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.12.06-13.29.40:847][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.12.06-13.29.40:847][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.12.06-13.29.40:847][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.12.06-13.29.40:847][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.12.06-13.29.40:848][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.12.06-13.29.40:848][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.12.06-13.29.40:848][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.12.06-13.29.40:848][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.12.06-13.29.40:848][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.12.06-13.29.40:848][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.12.06-13.29.40:848][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.12.06-13.29.40:848][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.12.06-13.29.40:848][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.12.06-13.29.40:848][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.12.06-13.29.40:848][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.12.06-13.29.40:848][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.12.06-13.29.40:848][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.12.06-13.29.40:848][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.12.06-13.29.40:848][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.12.06-13.29.40:848][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.12.06-13.29.40:848][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.12.06-13.29.40:848][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.12.06-13.29.40:848][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.12.06-13.29.40:848][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.12.06-13.29.40:848][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.12.06-13.29.40:848][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/Config/Windows/Scalability.ini]
-[2020.12.06-13.29.40:848][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.12.06-13.29.40:848][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.12.06-13.29.40:848][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.12.06-13.29.40:848][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.12.06-13.29.40:848][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.12.06-13.29.40:848][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.12.06-13.29.40:848][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.12.06-13.29.40:848][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.12.06-13.29.40:848][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.12.06-13.29.40:848][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/Config/Windows/Scalability.ini]
-[2020.12.06-13.29.40:848][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.12.06-13.29.40:848][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.12.06-13.29.40:848][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.12.06-13.29.40:848][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.12.06-13.29.40:848][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.12.06-13.29.40:848][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.12.06-13.29.40:848][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.12.06-13.29.40:848][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.12.06-13.29.40:848][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.12.06-13.29.40:848][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.12.06-13.29.40:848][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.12.06-13.29.40:848][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2020.12.06-13.29.40:848][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.12.06-13.29.40:848][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.12.06-13.29.40:848][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.12.06-13.29.40:848][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.12.06-13.29.40:848][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.12.06-13.29.40:848][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.12.06-13.29.40:848][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.12.06-13.29.40:848][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.12.06-13.29.40:848][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.12.06-13.29.40:848][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.12.06-13.29.40:848][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.12.06-13.29.40:848][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.12.06-13.29.40:848][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.12.06-13.29.40:849][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.12.06-13.29.40:849][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/Config/Windows/Scalability.ini]
-[2020.12.06-13.29.40:849][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.12.06-13.29.40:849][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.12.06-13.29.40:849][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/Config/Windows/Scalability.ini]
-[2020.12.06-13.29.40:849][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.12.06-13.29.40:849][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.12.06-13.29.40:849][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.12.06-13.29.40:849][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2020.12.06-13.29.40:849][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2020.12.06-13.29.40:849][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2020.12.06-13.29.40:849][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2020.12.06-13.29.40:849][  0]LogInit: Selected Device Profile: [Windows]
-[2020.12.06-13.29.40:849][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.12.06-13.29.40:849][  0]LogHAL: Display: Platform has ~ 16 GB [17161457664 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.12.06-13.29.40:849][  0]LogInit: Going up to parent DeviceProfile []
-[2020.12.06-13.29.40:849][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/Config/Windows/Scalability.ini]
-[2020.12.06-13.29.40:849][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.12.06-13.29.40:849][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.12.06-13.29.40:849][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/Config/Windows/Scalability.ini]
-[2020.12.06-13.29.40:849][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.12.06-13.29.40:849][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/Config/Windows/Scalability.ini]
-[2020.12.06-13.29.40:849][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.12.06-13.29.40:849][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.12.06-13.29.40:849][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.12.06-13.29.40:849][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.12.06-13.29.40:849][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.12.06-13.29.40:849][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.12.06-13.29.40:849][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.12.06-13.29.40:849][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.12.06-13.29.40:849][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.12.06-13.29.40:849][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.12.06-13.29.40:849][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.12.06-13.29.40:849][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.12.06-13.29.40:849][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.12.06-13.29.40:849][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.12.06-13.29.40:849][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.12.06-13.29.40:849][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.12.06-13.29.40:849][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.12.06-13.29.40:849][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.12.06-13.29.40:849][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/Config/Windows/Scalability.ini]
-[2020.12.06-13.29.40:849][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.12.06-13.29.40:849][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.12.06-13.29.40:849][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.12.06-13.29.40:849][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.12.06-13.29.40:849][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.12.06-13.29.40:849][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.12.06-13.29.40:849][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.12.06-13.29.40:849][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.12.06-13.29.40:849][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.12.06-13.29.40:849][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.12.06-13.29.40:850][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.12.06-13.29.40:850][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.12.06-13.29.40:850][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.12.06-13.29.40:850][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.12.06-13.29.40:850][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.12.06-13.29.40:850][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.12.06-13.29.40:850][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.12.06-13.29.40:850][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.12.06-13.29.40:850][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.12.06-13.29.40:850][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.12.06-13.29.40:850][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.12.06-13.29.40:850][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.12.06-13.29.40:850][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.12.06-13.29.40:850][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.12.06-13.29.40:850][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.12.06-13.29.40:850][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.12.06-13.29.40:850][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.12.06-13.29.40:850][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.12.06-13.29.40:850][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.12.06-13.29.40:850][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.12.06-13.29.40:850][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/Config/Windows/Scalability.ini]
-[2020.12.06-13.29.40:850][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.12.06-13.29.40:850][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.12.06-13.29.40:850][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.12.06-13.29.40:850][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.12.06-13.29.40:850][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.12.06-13.29.40:850][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.12.06-13.29.40:850][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.12.06-13.29.40:850][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.12.06-13.29.40:850][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.12.06-13.29.40:850][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/Config/Windows/Scalability.ini]
-[2020.12.06-13.29.40:850][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.12.06-13.29.40:850][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.12.06-13.29.40:850][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.12.06-13.29.40:850][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.12.06-13.29.40:851][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.12.06-13.29.40:851][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.12.06-13.29.40:851][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.12.06-13.29.40:851][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.12.06-13.29.40:851][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.12.06-13.29.40:851][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.12.06-13.29.40:851][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.12.06-13.29.40:851][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2020.12.06-13.29.40:851][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.12.06-13.29.40:851][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.12.06-13.29.40:851][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.12.06-13.29.40:851][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.12.06-13.29.40:851][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.12.06-13.29.40:851][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.12.06-13.29.40:851][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.12.06-13.29.40:851][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.12.06-13.29.40:851][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.12.06-13.29.40:851][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.12.06-13.29.40:851][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.12.06-13.29.40:851][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.12.06-13.29.40:851][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.12.06-13.29.40:851][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.12.06-13.29.40:851][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/Config/Windows/Scalability.ini]
-[2020.12.06-13.29.40:851][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.12.06-13.29.40:851][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.12.06-13.29.40:851][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/Config/Windows/Scalability.ini]
-[2020.12.06-13.29.40:851][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.12.06-13.29.40:851][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.12.06-13.29.40:851][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.12.06-13.29.40:851][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2020.12.06-13.29.40:851][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2020.12.06-13.29.40:851][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2020.12.06-13.29.40:851][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2020.12.06-13.29.40:851][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.12.06-13.29.40:851][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.12.06-13.29.40:851][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.12.06-13.29.40:851][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
-[2020.12.06-13.29.40:851][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/Config/Windows/Engine.ini]
-[2020.12.06-13.29.40:852][  0]LogInit: Computer: TOMER-PC
-[2020.12.06-13.29.40:852][  0]LogInit: User: TOMER
-[2020.12.06-13.29.40:852][  0]LogInit: CPU Page size=4096, Cores=4
-[2020.12.06-13.29.40:852][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.12.06-13.29.40:852][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2020.12.06-13.29.40:852][  0]LogMemory: Platform Memory Stats for Windows
-[2020.12.06-13.29.40:852][  0]LogMemory: Process Physical Memory: 115.83 MB used, 115.84 MB peak
-[2020.12.06-13.29.40:852][  0]LogMemory: Process Virtual Memory: 104.49 MB used, 104.49 MB peak
-[2020.12.06-13.29.40:852][  0]LogMemory: Physical Memory: 8470.52 MB used,  7895.93 MB free, 16366.44 MB total
-[2020.12.06-13.29.40:852][  0]LogMemory: Virtual Memory: 5153.18 MB used,  134212576.00 MB free, 134217728.00 MB total
-[2020.12.06-13.29.40:859][  0]LogWindows: WindowsPlatformFeatures enabled
-[2020.12.06-13.29.40:905][  0]LogInit: Physics initialised using underlying interface: PhysX
-[2020.12.06-13.29.40:907][  0]LogInit: Using OS detected language (en-US).
-[2020.12.06-13.29.40:907][  0]LogInit: Using OS detected locale (he-IL).
-[2020.12.06-13.29.40:917][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2020.12.06-13.29.41:263][  0]LogInit: Setting process to per monitor DPI aware
-[2020.12.06-13.29.41:357][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.12.06-13.29.41:357][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.12.06-13.29.47:070][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.12.06-13.29.47:070][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2020.12.06-13.29.47:070][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2020.12.06-13.29.47:070][  0]LogD3D11RHI: D3D11 adapters:
-[2020.12.06-13.29.47:154][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
-[2020.12.06-13.29.47:154][  0]LogD3D11RHI:       4043/0/8183 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2020.12.06-13.29.47:156][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.12.06-13.29.47:156][  0]LogD3D11RHI:       0/0/8183 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.12.06-13.29.47:156][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.12.06-13.29.47:166][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.12.06-13.29.47:167][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
-[2020.12.06-13.29.47:167][  0]LogWindows: EnumDisplayDevices:
-[2020.12.06-13.29.47:167][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
-[2020.12.06-13.29.47:167][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2020.12.06-13.29.47:167][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2020.12.06-13.29.47:168][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2020.12.06-13.29.47:168][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2020.12.06-13.29.47:168][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
-[2020.12.06-13.29.47:168][  0]LogD3D11RHI:   Driver Version: 432.00 (internal:26.21.14.3200, unified:432.00)
-[2020.12.06-13.29.47:168][  0]LogD3D11RHI:      Driver Date: 7-24-2019
-[2020.12.06-13.29.47:168][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
-[2020.12.06-13.29.47:226][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2020.12.06-13.29.47:228][  0]LogD3D11RHI: [Aftermath] Enabled and primed
-[2020.12.06-13.29.47:228][  0]LogD3D11RHI: Async texture creation enabled
-[2020.12.06-13.29.47:228][  0]LogD3D11RHI: Array index from any shader is supported
-[2020.12.06-13.29.47:287][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2020.12.06-13.29.47:648][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2020.12.06-13.29.47:674][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2020.12.06-13.29.47:674][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2020.12.06-13.29.47:674][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2020.12.06-13.29.47:674][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2020.12.06-13.29.47:674][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2020.12.06-13.29.47:674][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2020.12.06-13.29.47:674][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2020.12.06-13.29.47:674][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2020.12.06-13.29.47:674][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2020.12.06-13.29.47:674][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2020.12.06-13.29.47:730][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2020.12.06-13.29.47:731][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2020.12.06-13.29.47:791][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
-[2020.12.06-13.29.47:802][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2020.12.06-13.29.47:813][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2020.12.06-13.29.47:824][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2020.12.06-13.29.47:836][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2020.12.06-13.29.47:847][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2020.12.06-13.29.47:859][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2020.12.06-13.29.47:896][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2020.12.06-13.29.47:896][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2020.12.06-13.29.47:917][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2020.12.06-13.29.47:917][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2020.12.06-13.29.47:928][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2020.12.06-13.29.47:944][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2020.12.06-13.29.47:956][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2020.12.06-13.29.47:967][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2020.12.06-13.29.47:967][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.12.06-13.29.47:976][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.12.06-13.29.48:047][  0]LogShaderCompilers: Guid format shader working directory is -19 characters bigger than the processId version (../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Intermediate/Shaders/WorkingDirectory/7716/).
-[2020.12.06-13.29.48:047][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/TOMER/AppData/Local/Temp/UnrealShaderWorkingDir/DF4E2BD443D5B55135285A8BDD3BF2DE/'.
-[2020.12.06-13.29.48:048][  0]LogXGEController: Cleaning working directory: C:/Users/TOMER/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2020.12.06-13.29.48:048][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.12.06-13.29.48:048][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.12.06-13.29.48:048][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.12.06-13.29.58:444][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.12.06-13.29.59:002][  0]LogDerivedDataCache: Loaded boot cache 0.56s 75MB C:/Users/TOMER/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2020.12.06-13.29.59:002][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/TOMER/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
-[2020.12.06-13.29.59:003][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.12.06-13.29.59:003][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.12.06-13.29.59:003][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.12.06-13.29.59:003][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.12.06-13.29.59:016][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.12.06-13.29.59:016][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.12.06-13.29.59:016][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.12.06-13.29.59:017][  0]LogDerivedDataCache: Using Local data cache path C:/Users/TOMER/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.12.06-13.29.59:017][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.12.06-13.29.59:017][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.12.06-13.29.59:089][  0]LogSlate: Using FreeType 2.10.0
-[2020.12.06-13.29.59:089][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.12.06-13.29.59:451][  0]LogAssetRegistry: FAssetRegistry took 0.0033 seconds to start up
-[2020.12.06-13.29.59:764][  0]LogInit: Selected Device Profile: [Windows]
-[2020.12.06-13.29.59:911][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.12.06-13.29.59:911][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.12.06-13.29.59:911][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.12.06-13.29.59:911][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.12.06-13.29.59:911][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.12.06-13.29.59:930][  0]LogNetVersion: ToonTanks 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 281104731)
-[2020.12.06-13.30.11:669][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001EC66BD77C0), frame # 0
-[2020.12.06-13.30.11:669][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001EC66BE2AC0), frame # 0
-[2020.12.06-13.30.11:671][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001EC66D46800), frame # 0
-[2020.12.06-13.30.11:742][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.063161 seconds
-[2020.12.06-13.30.11:747][  0]LogUObjectArray: 15913 objects as part of root set at end of initial load.
-[2020.12.06-13.30.11:747][  0]LogUObjectAllocator: 3964304 out of 0 bytes used by permanent object pool.
-[2020.12.06-13.30.11:747][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.12.06-13.30.12:618][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.12.06-13.30.12:623][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.12.06-13.30.12:726][  0]SourceControl: Source control is disabled
-[2020.12.06-13.30.12:726][  0]SourceControl: Source control is disabled
-[2020.12.06-13.30.12:730][  0]SourceControl: Source control is disabled
-[2020.12.06-13.30.12:733][  0]SourceControl: Source control is disabled
-[2020.12.06-13.30.12:744][  0]SourceControl: Source control is disabled
-[2020.12.06-13.30.13:483][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.12.06-13.30.13:506][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.12.06-13.30.13:506][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.12.06-13.30.13:569][  0]LogOcInput: OculusInput pre-init called
-[2020.12.06-13.30.13:583][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2020.12.06-13.30.13:583][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2020.12.06-13.30.13:694][  0]LogEngine: Initializing Engine...
-[2020.12.06-13.30.13:695][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.12.06-13.30.13:695][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
-[2020.12.06-13.30.13:696][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2020.12.06-13.30.13:862][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.12.06-13.30.13:873][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.12.06-13.30.13:873][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001EC691D5C00), frame # 0
-[2020.12.06-13.30.13:873][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001EC691FE340), frame # 0
-[2020.12.06-13.30.13:894][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.12.06-13.30.13:894][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.12.06-13.30.13:894][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.12.06-13.30.13:895][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.12.06-13.30.13:895][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.12.06-13.30.13:895][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.12.06-13.30.13:895][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.12.06-13.30.13:895][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.12.06-13.30.13:895][  0]LogAudio: Display: Using built-in audio occlusion.
-[2020.12.06-13.30.13:895][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2020.12.06-13.30.13:915][  0]LogAudioMixer: Display: 0: FrontLeft
-[2020.12.06-13.30.13:915][  0]LogAudioMixer: Display: 1: FrontRight
-[2020.12.06-13.30.14:130][  0]LogAudioMixer: Display: Using Audio Device S32D850-8 (NVIDIA High Definition Audio)
-[2020.12.06-13.30.14:133][  0]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.12.06-13.30.14:136][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.12.06-13.30.14:136][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.12.06-13.30.14:138][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.12.06-13.30.14:139][  0]LogInit: FAudioDevice initialized.
-[2020.12.06-13.30.14:140][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.12.06-13.30.15:080][  0]LogDerivedDataCache: Saved boot cache 0.94s 75MB C:/Users/TOMER/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2020.12.06-13.30.15:087][  0]LogInit: Texture streaming: Enabled
-[2020.12.06-13.30.15:142][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.12.06-13.30.15:185][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={B8A184EF-4C92-3DC9-30D9-179A3A969942}
-[2020.12.06-13.30.15:185][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2020.12.06-13.30.15:203][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2020.12.06-13.30.15:298][  0]LogInit: Transaction tracking system initialized
-[2020.12.06-13.30.15:321][  0]BlueprintLog: New page: Editor Load
-[2020.12.06-13.30.15:533][  0]LocalizationService: Localization service is disabled
-[2020.12.06-13.30.16:829][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.12.06-13.30.16:829][  0]LogCook: Display: Mobile HDR setting 1
-[2020.12.06-13.30.17:855][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/Content/' took 0.01s
-[2020.12.06-13.30.31:507][  0]SourceControl: Source control is disabled
-[2020.12.06-13.30.31:507][  0]LogUnrealEdMisc: Loading editor; pre map load, took 53.027
-[2020.12.06-13.30.31:507][  0]Cmd: MAP LOAD FILE="../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Content/Maps/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.12.06-13.30.31:507][  0]LightingResults: New page: Lighting Build
-[2020.12.06-13.30.31:508][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2020.12.06-13.30.31:508][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.12.06-13.30.31:508][  0]MapCheck: New page: Map Check
-[2020.12.06-13.30.31:508][  0]LightingResults: New page: Lighting Build
-[2020.12.06-13.30.31:518][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001EC691D5C00), frame # 0
-[2020.12.06-13.30.31:518][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001EC691FE340), frame # 0
-[2020.12.06-13.30.31:519][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
-[2020.12.06-13.30.31:910][  0]LogAIModule: Creating AISystem for world Main
-[2020.12.06-13.30.31:910][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001EC58A13C00), frame # 0
-[2020.12.06-13.30.31:911][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001EC58242AC0), frame # 0
-[2020.12.06-13.30.31:915][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.12.06-13.30.31:936][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
-[2020.12.06-13.30.31:936][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.12.06-13.30.31:936][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.21ms to complete.
-[2020.12.06-13.30.31:936][  0]LogFileHelpers: Loading map 'Main' took 0.429
-[2020.12.06-13.30.31:941][  0]LogUnrealEdMisc: Total Editor Startup Time, took 53.461
-[2020.12.06-13.30.32:141][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.12.06-13.30.32:150][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.12.06-13.30.32:159][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.12.06-13.30.32:168][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.12.06-13.30.32:190][  0]LogCollectionManager: Loaded 0 collections in 0.005643 seconds
-[2020.12.06-13.30.32:227][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/Collections/' took 0.00s
-[2020.12.06-13.30.32:227][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/Content/Developers/TOMER/Collections/' took 0.00s
-[2020.12.06-13.30.32:228][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/Content/Collections/' took 0.00s
-[2020.12.06-13.30.32:228][  0]LogContentBrowser: Native class hierarchy populated in 0.0269 seconds. Added 3434 classes and 828 folders.
-[2020.12.06-13.30.32:234][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
-[2020.12.06-13.30.33:081][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
-[2020.12.06-13.30.33:099][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 2 classes and 0 folders.
-[2020.12.06-13.30.33:164][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2020.12.06-13.30.33:164][  0]LogLoad: (Engine Initialization) Total time: 54.68 seconds
-[2020.12.06-13.30.33:164][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.12.06-13.30.33:211][  0]LogAssetRegistry: Asset discovery search completed in 33.7616 seconds
-[2020.12.06-13.30.33:216][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
-[2020.12.06-13.30.33:217][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.12.06-13.30.33:224][  0]LogSlate: Took 0.000152 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.12.06-13.30.33:225][  0]LogSlate: Took 0.000115 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.12.06-13.30.33:255][  0]LogSlate: Took 0.022942 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.12.06-13.30.33:479][  2]LogRenderer: Reallocating scene render targets to support 804x416 Format 10 NumSamples 1 (Frame:1).
-[2020.12.06-13.30.35:314][152]LogRenderer: Reallocating scene render targets to support 804x916 Format 10 NumSamples 1 (Frame:154).
-[2020.12.06-13.30.38:498][297]LogTemp: Repeating last play command: Selected Viewport
-[2020.12.06-13.30.38:518][297]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.12.06-13.30.38:518][297]PIE: New page: PIE session: Main (6 בדצמ׳ 2020, 17:30:38)
-[2020.12.06-13.30.38:519][297]LogOnline: OSS: Creating online subsystem instance for: NULL
-[2020.12.06-13.30.38:520][297]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
-[2020.12.06-13.30.38:520][297]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
-[2020.12.06-13.30.38:524][297]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003235s)
-[2020.12.06-13.30.38:525][297]LogAIModule: Creating AISystem for world Main
-[2020.12.06-13.30.38:525][297]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001EC7D804800), frame # 297
-[2020.12.06-13.30.38:525][297]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001EC7D7EEE80), frame # 297
-[2020.12.06-13.30.38:525][297]LogPlayLevel: PIE: World Init took: (0.001298s)
-[2020.12.06-13.30.38:525][297]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.004666s)
-[2020.12.06-13.30.38:534][297]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
-[2020.12.06-13.30.38:536][297]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.12.06-13.30.38:536][297]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.12.06-13.30.38:536][297]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.12.06-13.30.38:536][297]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.12.06-13.30.38:536][297]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.12.06-13.30.38:536][297]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.12.06-13.30.38:536][297]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.12.06-13.30.38:536][297]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.12.06-13.30.38:537][297]LogAudio: Display: Using built-in audio occlusion.
-[2020.12.06-13.30.38:537][297]LogAudioMixer: Display: Initializing audio mixer.
-[2020.12.06-13.30.38:545][297]LogAudioMixer: Display: 0: FrontLeft
-[2020.12.06-13.30.38:545][297]LogAudioMixer: Display: 1: FrontRight
-[2020.12.06-13.30.38:568][297]LogAudioMixer: Display: Using Audio Device S32D850-8 (NVIDIA High Definition Audio)
-[2020.12.06-13.30.38:568][297]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.12.06-13.30.38:568][297]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.12.06-13.30.38:568][297]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.12.06-13.30.38:568][297]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.12.06-13.30.38:581][297]LogInit: FAudioDevice initialized.
-[2020.12.06-13.30.38:627][297]LogLoad: Game class is 'BP_GameModeBase_C'
-[2020.12.06-13.30.38:630][297]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2020.12.06-15.30.38
-[2020.12.06-13.30.38:630][297]LogWorld: Bringing up level for play took: 0.001253
-[2020.12.06-13.30.38:630][297]LogOnline: OSS: Creating online subsystem instance for: :Context_1
-[2020.12.06-13.30.38:634][297]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 20 classes and 0 folders.
-[2020.12.06-13.30.38:636][297]PIE: Server logged in
-[2020.12.06-13.30.38:636][297]PIE: Play in editor total start time 0.119 seconds.
-[2020.12.06-13.31.04:588][369]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.12.06-13.31.04:588][369]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
-[2020.12.06-13.31.04:588][369]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
-[2020.12.06-13.31.04:588][369]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.12.06-13.31.04:596][369]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.12.06-13.31.04:598][369]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.12.06-13.31.04:623][369]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.12.06-13.31.04:624][369]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001EC7D7EEE80), frame # 3369
-[2020.12.06-13.31.04:624][369]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001EC7D804800), frame # 3369
-[2020.12.06-13.31.04:625][369]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
-[2020.12.06-13.31.04:657][370]LogPlayLevel: Display: Destroying online subsystem :Context_1
-[2020.12.06-13.31.58:310][778]LogSlate: Took 0.018801 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.12.06-13.31.58:334][778]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Pawns/BP_PawnTurret.BP_PawnTurret
-[2020.12.06-13.31.59:833][778]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 125 classes and 0 folders.
-[2020.12.06-13.32.03:178][778]LogSlate: Took 0.012824 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2020.12.06-13.32.04:757][832]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
-[2020.12.06-13.32.20:608][ 21]LogSlate: Took 0.000221 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2020.12.06-13.32.32:121][726]BlueprintLog: New page: Compile BP_PawnTank
-[2020.12.06-13.32.32:234][726]LogUObjectHash: Compacting FUObjectHashTables data took   3.27ms
-[2020.12.06-13.32.33:028][784]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawns/BP_PawnTank" FILE="../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Content/Blueprints/Pawns/BP_PawnTank.uasset" SILENT=true
-[2020.12.06-13.32.33:143][784]LogSavePackage: Moving '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/BP_PawnTank82111AB74CBB2EE4BB1D7EA03263C8D7.tmp' to '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Content/Blueprints/Pawns/BP_PawnTank.uasset'
-[2020.12.06-13.32.33:165][784]AssetCheck: New page: Asset Save: BP_PawnTank
-[2020.12.06-13.32.33:165][784]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
-[2020.12.06-13.32.37:706][185]BlueprintLog: New page: Compile BP_PawnTurret
-[2020.12.06-13.32.37:749][185]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
-[2020.12.06-13.32.38:443][253]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawns/BP_PawnTurret" FILE="../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Content/Blueprints/Pawns/BP_PawnTurret.uasset" SILENT=true
-[2020.12.06-13.32.38:473][253]LogSavePackage: Moving '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/BP_PawnTurretE377677A4C06FEDE446A32911F88C21D.tmp' to '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Content/Blueprints/Pawns/BP_PawnTurret.uasset'
-[2020.12.06-13.32.38:488][253]AssetCheck: New page: Asset Save: BP_PawnTurret
-[2020.12.06-13.32.38:488][253]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Pawns/BP_PawnTurret.BP_PawnTurret
-[2020.12.06-13.33.03:769][825]LogMaterial: Display: Missing cached shader map for material M_ParticleBase, compiling. 
-[2020.12.06-13.33.04:037][825]LogStaticMesh: Building static mesh SM_Sphere...
-[2020.12.06-13.33.04:039][825]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 27
-[2020.12.06-13.33.04:039][825]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 20
-[2020.12.06-13.33.04:039][825]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 13
-[2020.12.06-13.33.04:039][825]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 6
-[2020.12.06-13.33.04:442][825]LogStaticMesh: Built static mesh [0.31s] /Game/Assets/Meshes/SM_Sphere.SM_Sphere
-[2020.12.06-13.33.16:037][125]BlueprintLog: New page: Compile BP_PawnTank
-[2020.12.06-13.33.16:097][125]LogUObjectHash: Compacting FUObjectHashTables data took   3.17ms
-[2020.12.06-13.33.16:674][158]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawns/BP_PawnTank" FILE="../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Content/Blueprints/Pawns/BP_PawnTank.uasset" SILENT=true
-[2020.12.06-13.33.16:701][158]LogSavePackage: Moving '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/BP_PawnTankEDBD56DA4A4E6AB1C1AA43B8FF7C2E99.tmp' to '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Content/Blueprints/Pawns/BP_PawnTank.uasset'
-[2020.12.06-13.33.16:717][158]AssetCheck: New page: Asset Save: BP_PawnTank
-[2020.12.06-13.33.16:717][158]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
-[2020.12.06-13.33.20:946][482]BlueprintLog: New page: Compile BP_PawnTurret
-[2020.12.06-13.33.21:000][482]LogUObjectHash: Compacting FUObjectHashTables data took   2.79ms
-[2020.12.06-13.33.21:577][520]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawns/BP_PawnTurret" FILE="../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Content/Blueprints/Pawns/BP_PawnTurret.uasset" SILENT=true
-[2020.12.06-13.33.21:604][520]LogSavePackage: Moving '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/BP_PawnTurret04ABE2BA48FF39C5BAC59DB21A17C24F.tmp' to '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Content/Blueprints/Pawns/BP_PawnTurret.uasset'
-[2020.12.06-13.33.21:617][520]AssetCheck: New page: Asset Save: BP_PawnTurret
-[2020.12.06-13.33.21:617][520]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Pawns/BP_PawnTurret.BP_PawnTurret
-[2020.12.06-13.33.32:543][193]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Actors/BP_ProjectileBase.BP_ProjectileBase
-[2020.12.06-13.33.36:259][202]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
-[2020.12.06-13.33.36:259][202]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.12.06-13.33.36:503][202]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Actors/BP_ProjectileBase.BP_ProjectileBase
-[2020.12.06-13.33.47:202][716]BlueprintLog: New page: Compile BP_ProjectileBase
-[2020.12.06-13.33.47:255][716]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
-[2020.12.06-13.33.48:081][772]LogSavePackage: Moving '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/BP_ProjectileBaseEFA6189A40A6472F64AB9FAD9C3A543D.tmp' to '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Content/Blueprints/Actors/BP_ProjectileBase.uasset'
-[2020.12.06-13.33.48:094][772]AssetCheck: New page: Asset Save: BP_ProjectileBase
-[2020.12.06-13.33.48:094][772]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Actors/BP_ProjectileBase.BP_ProjectileBase
-[2020.12.06-13.33.53:645][217]LogTemp: Repeating last play command: Selected Viewport
-[2020.12.06-13.33.53:686][217]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.12.06-13.33.53:686][217]PIE: New page: PIE session: Main (6 בדצמ׳ 2020, 17:33:53)
-[2020.12.06-13.33.53:725][217]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
-[2020.12.06-13.33.53:745][217]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019623s)
-[2020.12.06-13.33.53:746][217]LogAIModule: Creating AISystem for world Main
-[2020.12.06-13.33.53:746][217]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001EC7D9D7E00), frame # 10217
-[2020.12.06-13.33.53:746][217]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001EC97801F80), frame # 10217
-[2020.12.06-13.33.53:746][217]LogPlayLevel: PIE: World Init took: (0.001243s)
-[2020.12.06-13.33.53:746][217]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.021126s)
-[2020.12.06-13.33.53:773][217]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
-[2020.12.06-13.33.53:774][217]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.12.06-13.33.53:774][217]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.12.06-13.33.53:774][217]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.12.06-13.33.53:774][217]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.12.06-13.33.53:774][217]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.12.06-13.33.53:774][217]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.12.06-13.33.53:774][217]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.12.06-13.33.53:774][217]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.12.06-13.33.53:774][217]LogAudio: Display: Using built-in audio occlusion.
-[2020.12.06-13.33.53:774][217]LogAudioMixer: Display: Initializing audio mixer.
-[2020.12.06-13.33.53:782][217]LogAudioMixer: Display: 0: FrontLeft
-[2020.12.06-13.33.53:782][217]LogAudioMixer: Display: 1: FrontRight
-[2020.12.06-13.33.53:804][217]LogAudioMixer: Display: Using Audio Device S32D850-8 (NVIDIA High Definition Audio)
-[2020.12.06-13.33.53:805][217]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.12.06-13.33.53:805][217]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.12.06-13.33.53:805][217]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.12.06-13.33.53:805][217]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.12.06-13.33.53:806][217]LogInit: FAudioDevice initialized.
-[2020.12.06-13.33.53:822][217]LogLoad: Game class is 'BP_GameModeBase_C'
-[2020.12.06-13.33.53:824][217]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2020.12.06-15.33.53
-[2020.12.06-13.33.53:825][217]LogWorld: Bringing up level for play took: 0.001118
-[2020.12.06-13.33.53:825][217]LogOnline: OSS: Creating online subsystem instance for: :Context_11
-[2020.12.06-13.33.53:828][217]PIE: Server logged in
-[2020.12.06-13.33.53:829][217]PIE: Play in editor total start time 0.163 seconds.
-[2020.12.06-13.34.03:581][366]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.12.06-13.34.03:581][366]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
-[2020.12.06-13.34.03:581][366]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
-[2020.12.06-13.34.03:581][366]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.12.06-13.34.03:587][366]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.12.06-13.34.03:591][366]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.12.06-13.34.03:633][366]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.12.06-13.34.03:634][366]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001EC97801F80), frame # 11366
-[2020.12.06-13.34.03:634][366]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001EC7D9D7E00), frame # 11366
-[2020.12.06-13.34.03:637][366]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
-[2020.12.06-13.34.03:677][367]LogPlayLevel: Display: Destroying online subsystem :Context_11
-[2020.12.06-13.34.05:364][549]LogTemp: Repeating last play command: Selected Viewport
-[2020.12.06-13.34.05:384][549]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.12.06-13.34.05:384][549]PIE: New page: PIE session: Main (6 בדצמ׳ 2020, 17:34:05)
-[2020.12.06-13.34.05:414][549]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
-[2020.12.06-13.34.05:418][549]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003763s)
-[2020.12.06-13.34.05:419][549]LogAIModule: Creating AISystem for world Main
-[2020.12.06-13.34.05:419][549]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001EC7D8E2000), frame # 11549
-[2020.12.06-13.34.05:435][549]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001ECA4049940), frame # 11549
-[2020.12.06-13.34.05:436][549]LogPlayLevel: PIE: World Init took: (0.017756s)
-[2020.12.06-13.34.05:436][549]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.021696s)
-[2020.12.06-13.34.05:462][549]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
-[2020.12.06-13.34.05:463][549]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.12.06-13.34.05:464][549]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.12.06-13.34.05:464][549]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.12.06-13.34.05:464][549]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.12.06-13.34.05:464][549]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.12.06-13.34.05:464][549]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.12.06-13.34.05:464][549]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.12.06-13.34.05:464][549]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.12.06-13.34.05:464][549]LogAudio: Display: Using built-in audio occlusion.
-[2020.12.06-13.34.05:464][549]LogAudioMixer: Display: Initializing audio mixer.
-[2020.12.06-13.34.05:473][549]LogAudioMixer: Display: 0: FrontLeft
-[2020.12.06-13.34.05:473][549]LogAudioMixer: Display: 1: FrontRight
-[2020.12.06-13.34.05:498][549]LogAudioMixer: Display: Using Audio Device S32D850-8 (NVIDIA High Definition Audio)
-[2020.12.06-13.34.05:498][549]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.12.06-13.34.05:498][549]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.12.06-13.34.05:498][549]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.12.06-13.34.05:499][549]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.12.06-13.34.05:511][549]LogInit: FAudioDevice initialized.
-[2020.12.06-13.34.05:518][549]LogLoad: Game class is 'BP_GameModeBase_C'
-[2020.12.06-13.34.05:520][549]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2020.12.06-15.34.05
-[2020.12.06-13.34.05:520][549]LogWorld: Bringing up level for play took: 0.001330
-[2020.12.06-13.34.05:520][549]LogOnline: OSS: Creating online subsystem instance for: :Context_12
-[2020.12.06-13.34.05:523][549]PIE: Server logged in
-[2020.12.06-13.34.05:524][549]PIE: Play in editor total start time 0.142 seconds.
-[2020.12.06-13.34.14:935][666]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.12.06-13.34.14:935][666]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
-[2020.12.06-13.34.14:935][666]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
-[2020.12.06-13.34.14:936][666]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.12.06-13.34.14:947][666]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.12.06-13.34.14:950][666]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.12.06-13.34.14:991][666]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.12.06-13.34.14:992][666]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001ECA4049940), frame # 12666
-[2020.12.06-13.34.14:992][666]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001EC7D8E2000), frame # 12666
-[2020.12.06-13.34.14:994][666]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
-[2020.12.06-13.34.15:029][667]LogPlayLevel: Display: Destroying online subsystem :Context_12
-[2020.12.06-13.34.24:323][844]LogTemp: Repeating last play command: Selected Viewport
-[2020.12.06-13.34.24:345][844]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.12.06-13.34.24:345][844]PIE: New page: PIE session: Main (6 בדצמ׳ 2020, 17:34:24)
-[2020.12.06-13.34.24:374][844]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
-[2020.12.06-13.34.24:378][844]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003695s)
-[2020.12.06-13.34.24:379][844]LogAIModule: Creating AISystem for world Main
-[2020.12.06-13.34.24:379][844]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001EC7D936400), frame # 12844
-[2020.12.06-13.34.24:379][844]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001EC82D06840), frame # 12844
-[2020.12.06-13.34.24:379][844]LogPlayLevel: PIE: World Init took: (0.001227s)
-[2020.12.06-13.34.24:379][844]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.005096s)
-[2020.12.06-13.34.24:405][844]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
-[2020.12.06-13.34.24:406][844]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.12.06-13.34.24:406][844]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.12.06-13.34.24:406][844]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.12.06-13.34.24:406][844]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.12.06-13.34.24:406][844]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.12.06-13.34.24:406][844]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.12.06-13.34.24:407][844]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.12.06-13.34.24:407][844]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.12.06-13.34.24:407][844]LogAudio: Display: Using built-in audio occlusion.
-[2020.12.06-13.34.24:407][844]LogAudioMixer: Display: Initializing audio mixer.
-[2020.12.06-13.34.24:415][844]LogAudioMixer: Display: 0: FrontLeft
-[2020.12.06-13.34.24:415][844]LogAudioMixer: Display: 1: FrontRight
-[2020.12.06-13.34.24:436][844]LogAudioMixer: Display: Using Audio Device S32D850-8 (NVIDIA High Definition Audio)
-[2020.12.06-13.34.24:437][844]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.12.06-13.34.24:437][844]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.12.06-13.34.24:437][844]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.12.06-13.34.24:437][844]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.12.06-13.34.24:450][844]LogInit: FAudioDevice initialized.
-[2020.12.06-13.34.24:457][844]LogLoad: Game class is 'BP_GameModeBase_C'
-[2020.12.06-13.34.24:459][844]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2020.12.06-15.34.24
-[2020.12.06-13.34.24:460][844]LogWorld: Bringing up level for play took: 0.001721
-[2020.12.06-13.34.24:460][844]LogOnline: OSS: Creating online subsystem instance for: :Context_13
-[2020.12.06-13.34.24:463][844]PIE: Server logged in
-[2020.12.06-13.34.24:464][844]PIE: Play in editor total start time 0.12 seconds.
-[2020.12.06-13.34.31:445][674]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.12.06-13.34.31:445][674]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
-[2020.12.06-13.34.31:445][674]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
-[2020.12.06-13.34.31:445][674]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.12.06-13.34.31:451][674]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.12.06-13.34.31:455][674]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.12.06-13.34.31:496][674]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.12.06-13.34.31:497][674]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001EC82D06840), frame # 13674
-[2020.12.06-13.34.31:497][674]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001EC7D936400), frame # 13674
-[2020.12.06-13.34.31:499][674]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
-[2020.12.06-13.34.31:533][675]LogPlayLevel: Display: Destroying online subsystem :Context_13
-[2020.12.06-13.34.36:029][771]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Content/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2020.12.06-13.34.36:057][771]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
-[2020.12.06-13.34.36:092][771]LogSavePackage: Moving '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/MainFE3A81764579811AA106E3B9FF17EBCE.tmp' to '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Content/Maps/Main.umap'
-[2020.12.06-13.34.36:134][771]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main_BuiltData" FILE="../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Content/Maps/Main_BuiltData.uasset" SILENT=true
-[2020.12.06-13.34.36:182][771]LogSavePackage: Moving '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/Main_BuiltData0CBC9F864BFE70CE2A094685A64E4B53.tmp' to '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Content/Maps/Main_BuiltData.uasset'
-[2020.12.06-13.34.36:200][771]AssetCheck: New page: Asset Save: multiple assets
-[2020.12.06-13.34.36:200][771]LogContentValidation: Display: Validating World /Game/Maps/Main.Main
-[2020.12.06-13.34.36:200][771]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Main_BuiltData.Main_BuiltData
-[2020.12.06-13.45.32:167][870]LogSlate: Window 'BP_ProjectileBase' being destroyed
-[2020.12.06-13.45.32:170][870]LogSlate: Window 'BP_ProjectileBase' being destroyed
-[2020.12.06-13.45.32:171][870]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
-[2020.12.06-13.45.32:171][870]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.12.06-13.45.32:270][870]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2020.12.06-13.45.32:270][870]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
-[2020.12.06-13.45.32:270][870]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.12.06-13.45.32:369][870]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2020.12.06-13.45.32:369][870]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
-[2020.12.06-13.45.32:369][870]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.12.06-13.45.35:451][178]Candidate modules for hot reload:
-[2020.12.06-13.45.35:451][178]  ToonTanks
-[2020.12.06-13.45.35:451][178]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,2621 ToonTanksEditor Win64 Development -Project="C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/ToonTanks.uproject" "C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/ToonTanks.uproject"  -IgnoreJunk]
-[2020.12.06-13.45.35:454][178]Warning: Starting HotReload took  0.0s.
-[2020.12.06-13.45.45:213][548]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Actors/BP_ProjectileBase.BP_ProjectileBase
-[2020.12.06-13.45.53:786][703]LogSlate: Window 'BP_ProjectileBase' being destroyed
-[2020.12.06-13.45.53:792][703]LogSlate: Window 'BP_ProjectileBase' being destroyed
-[2020.12.06-13.45.53:793][703]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
-[2020.12.06-13.45.53:793][703]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.12.06-13.46.19:862][645]CompilerResultsLog: New page: Compilation - 6 בדצמ׳ 2020, 17:46:19
-[2020.12.06-13.46.19:862][645]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TOMER\Documents\Unreal Projects\ToonTanks).
-[2020.12.06-13.46.19:862][645]CompilerResultsLog: Parsing headers for ToonTanksEditor
-[2020.12.06-13.46.19:862][645]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TOMER\Documents\Unreal Projects\ToonTanks\ToonTanks.uproject" "C:\Users\TOMER\Documents\Unreal Projects\ToonTanks\Intermediate\Build\Win64\ToonTanksEditor\Development\ToonTanksEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\TOMER\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-[2020.12.06-13.46.19:862][645]CompilerResultsLog: Error: C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/Source/ToonTanks/Actors/ProjectileBase.h(24)  : Error: Missing '*' in Expected a pointer type
-[2020.12.06-13.46.19:862][645]LogMainFrame: MainFrame: Module compiling took 44.416 seconds
-[2020.12.06-13.46.19:863][645]Warning: HotReload failed, recompile failed
-[2020.12.06-13.46.21:823][871]LogSlate: Took 0.000175 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
-[2020.12.06-13.46.42:745][113]LogSlate: Window 'Message Log' being destroyed
-[2020.12.06-13.46.42:751][113]LogSlate: Window 'Message Log' being destroyed
-[2020.12.06-13.46.47:987][443]Candidate modules for hot reload:
-[2020.12.06-13.46.47:987][443]  ToonTanks
-[2020.12.06-13.46.47:987][443]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,1078 ToonTanksEditor Win64 Development -Project="C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/ToonTanks.uproject" "C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/ToonTanks.uproject"  -IgnoreJunk]
-[2020.12.06-13.46.47:989][443]Warning: Starting HotReload took  0.0s.
-[2020.12.06-13.47.28:546][645]CompilerResultsLog: New page: Compilation - 6 בדצמ׳ 2020, 17:47:28
-[2020.12.06-13.47.28:546][645]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TOMER\Documents\Unreal Projects\ToonTanks).
-[2020.12.06-13.47.28:546][645]CompilerResultsLog: Parsing headers for ToonTanksEditor
-[2020.12.06-13.47.28:546][645]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TOMER\Documents\Unreal Projects\ToonTanks\ToonTanks.uproject" "C:\Users\TOMER\Documents\Unreal Projects\ToonTanks\Intermediate\Build\Win64\ToonTanksEditor\Development\ToonTanksEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\TOMER\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-[2020.12.06-13.47.28:546][645]CompilerResultsLog: Reflection code generated for ToonTanksEditor in 9.9060136 seconds
-[2020.12.06-13.47.28:546][645]CompilerResultsLog: Building ToonTanksEditor...
-[2020.12.06-13.47.28:546][645]CompilerResultsLog: Using Visual Studio 2019 14.26.28806 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-[2020.12.06-13.47.28:546][645]CompilerResultsLog: Building 7 actions with 8 processes...
-[2020.12.06-13.47.28:546][645]CompilerResultsLog:   [1/7] ToonTanks.init.gen.cpp
-[2020.12.06-13.47.28:546][645]CompilerResultsLog:   [2/7] ProjectileBase.gen.cpp
-[2020.12.06-13.47.28:546][645]CompilerResultsLog:   [3/7] PawnBase.cpp
-[2020.12.06-13.47.28:546][645]CompilerResultsLog:   [4/7] ProjectileBase.cpp
-[2020.12.06-13.47.28:546][645]CompilerResultsLog:   [5/7] UE4Editor-ToonTanks-1078.lib
-[2020.12.06-13.47.28:546][645]CompilerResultsLog:      Creating library C:\Users\TOMER\Documents\Unreal Projects\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-1078.lib and object C:\Users\TOMER\Documents\Unreal Projects\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-1078.exp
-[2020.12.06-13.47.28:546][645]CompilerResultsLog:   [6/7] UE4Editor-ToonTanks-1078.dll
-[2020.12.06-13.47.28:546][645]CompilerResultsLog:      Creating library C:\Users\TOMER\Documents\Unreal Projects\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-1078.suppressed.lib and object C:\Users\TOMER\Documents\Unreal Projects\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-1078.suppressed.exp
-[2020.12.06-13.47.28:546][645]CompilerResultsLog:   [7/7] ToonTanksEditor.target
-[2020.12.06-13.47.28:547][645]CompilerResultsLog: Total time in Parallel executor: 29.06 seconds
-[2020.12.06-13.47.28:547][645]CompilerResultsLog: Total execution time: 40.34 seconds
-[2020.12.06-13.47.28:547][645]LogMainFrame: MainFrame: Module compiling took 40.564 seconds
-[2020.12.06-13.47.28:613][645]LogClass: Could not find existing class ProjectileBase in package /Script/ToonTanks for HotReload, assuming new class
-[2020.12.06-13.47.28:613][645]LogClass: Function OnHit is new.
-[2020.12.06-13.47.28:636][645]LogHotReload: Re-instancing ProjectileBase after hot-reload.
-[2020.12.06-13.47.28:666][645]LogContentBrowser: Native class hierarchy updated for 'ToonTanks' in 0.0006 seconds. Added 7 classes and 7 folders.
-[2020.12.06-13.47.28:670][645]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
-[2020.12.06-13.47.28:773][645]LogContentBrowser: Native class hierarchy populated in 0.0136 seconds. Added 3434 classes and 828 folders.
-[2020.12.06-13.47.28:773][645]Display: HotReload took 40.8s.
-[2020.12.06-13.47.31:932][666]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Actors/BP_ProjectileBase.BP_ProjectileBase
-[2020.12.06-13.48.02:822][ 54]BlueprintLog: New page: Compile BP_ProjectileBase
-[2020.12.06-13.48.02:945][ 54]LogUObjectHash: Compacting FUObjectHashTables data took   5.85ms
-[2020.12.06-13.48.03:894][138]LogSavePackage: Moving '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/BP_ProjectileBase011BC22B454CF66C148054B26FA6956C.tmp' to '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Content/Blueprints/Actors/BP_ProjectileBase.uasset'
-[2020.12.06-13.48.03:912][138]AssetCheck: New page: Asset Save: BP_ProjectileBase
-[2020.12.06-13.48.03:912][138]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Actors/BP_ProjectileBase.BP_ProjectileBase
-[2020.12.06-13.48.05:894][278]LogRenderer: Reallocating scene render targets to support 804x1248 Format 10 NumSamples 1 (Frame:1).
-[2020.12.06-13.48.12:627][840]LogTemp: Repeating last play command: Selected Viewport
-[2020.12.06-13.48.12:652][840]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.12.06-13.48.12:652][840]PIE: New page: PIE session: Main (6 בדצמ׳ 2020, 17:48:12)
-[2020.12.06-13.48.12:652][840]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
-[2020.12.06-13.48.12:655][840]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003061s)
-[2020.12.06-13.48.12:656][840]LogAIModule: Creating AISystem for world Main
-[2020.12.06-13.48.12:656][840]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001EC98B7C200), frame # 25840
-[2020.12.06-13.48.12:656][840]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001EC824A51C0), frame # 25840
-[2020.12.06-13.48.12:656][840]LogPlayLevel: PIE: World Init took: (0.001131s)
-[2020.12.06-13.48.12:656][840]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.004311s)
-[2020.12.06-13.48.12:765][840]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
-[2020.12.06-13.48.12:768][840]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.12.06-13.48.12:768][840]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.12.06-13.48.12:768][840]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.12.06-13.48.12:768][840]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.12.06-13.48.12:768][840]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.12.06-13.48.12:768][840]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.12.06-13.48.12:768][840]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.12.06-13.48.12:768][840]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.12.06-13.48.12:768][840]LogAudio: Display: Using built-in audio occlusion.
-[2020.12.06-13.48.12:768][840]LogAudioMixer: Display: Initializing audio mixer.
-[2020.12.06-13.48.12:777][840]LogAudioMixer: Display: 0: FrontLeft
-[2020.12.06-13.48.12:777][840]LogAudioMixer: Display: 1: FrontRight
-[2020.12.06-13.48.12:802][840]LogAudioMixer: Display: Using Audio Device S32D850-8 (NVIDIA High Definition Audio)
-[2020.12.06-13.48.12:802][840]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.12.06-13.48.12:802][840]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.12.06-13.48.12:802][840]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.12.06-13.48.12:802][840]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.12.06-13.48.12:815][840]LogInit: FAudioDevice initialized.
-[2020.12.06-13.48.12:823][840]LogLoad: Game class is 'BP_GameModeBase_C'
-[2020.12.06-13.48.12:825][840]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2020.12.06-15.48.12
-[2020.12.06-13.48.12:826][840]LogWorld: Bringing up level for play took: 0.001378
-[2020.12.06-13.48.12:826][840]LogOnline: OSS: Creating online subsystem instance for: :Context_16
-[2020.12.06-13.48.12:829][840]PIE: Server logged in
-[2020.12.06-13.48.12:830][840]PIE: Play in editor total start time 0.182 seconds.
-[2020.12.06-13.48.28:580][714]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.12.06-13.48.28:580][714]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
-[2020.12.06-13.48.28:580][714]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
-[2020.12.06-13.48.28:580][714]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.12.06-13.48.28:590][714]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.12.06-13.48.28:594][714]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.12.06-13.48.28:630][714]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.12.06-13.48.28:630][714]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001EC824A51C0), frame # 27714
-[2020.12.06-13.48.28:630][714]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001EC98B7C200), frame # 27714
-[2020.12.06-13.48.28:633][714]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
-[2020.12.06-13.48.28:675][715]LogPlayLevel: Display: Destroying online subsystem :Context_16
-[2020.12.06-13.48.30:164][874]LogTemp: Repeating last play command: Selected Viewport
-[2020.12.06-13.48.30:185][874]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.12.06-13.48.30:185][874]PIE: New page: PIE session: Main (6 בדצמ׳ 2020, 17:48:30)
-[2020.12.06-13.48.30:185][874]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
-[2020.12.06-13.48.30:189][874]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003520s)
-[2020.12.06-13.48.30:190][874]LogAIModule: Creating AISystem for world Main
-[2020.12.06-13.48.30:190][874]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001EC81CA7C00), frame # 27874
-[2020.12.06-13.48.30:190][874]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001EC9CCE1080), frame # 27874
-[2020.12.06-13.48.30:190][874]LogPlayLevel: PIE: World Init took: (0.001401s)
-[2020.12.06-13.48.30:190][874]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.005071s)
-[2020.12.06-13.48.30:211][874]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
-[2020.12.06-13.48.30:213][874]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.12.06-13.48.30:213][874]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.12.06-13.48.30:213][874]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.12.06-13.48.30:213][874]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.12.06-13.48.30:213][874]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.12.06-13.48.30:213][874]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.12.06-13.48.30:213][874]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.12.06-13.48.30:213][874]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.12.06-13.48.30:213][874]LogAudio: Display: Using built-in audio occlusion.
-[2020.12.06-13.48.30:213][874]LogAudioMixer: Display: Initializing audio mixer.
-[2020.12.06-13.48.30:221][874]LogAudioMixer: Display: 0: FrontLeft
-[2020.12.06-13.48.30:221][874]LogAudioMixer: Display: 1: FrontRight
-[2020.12.06-13.48.30:243][874]LogAudioMixer: Display: Using Audio Device S32D850-8 (NVIDIA High Definition Audio)
-[2020.12.06-13.48.30:244][874]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.12.06-13.48.30:244][874]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.12.06-13.48.30:244][874]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.12.06-13.48.30:244][874]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.12.06-13.48.30:257][874]LogInit: FAudioDevice initialized.
-[2020.12.06-13.48.30:264][874]LogLoad: Game class is 'BP_GameModeBase_C'
-[2020.12.06-13.48.30:266][874]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2020.12.06-15.48.30
-[2020.12.06-13.48.30:266][874]LogWorld: Bringing up level for play took: 0.001190
-[2020.12.06-13.48.30:266][874]LogOnline: OSS: Creating online subsystem instance for: :Context_17
-[2020.12.06-13.48.30:269][874]PIE: Server logged in
-[2020.12.06-13.48.30:270][874]PIE: Play in editor total start time 0.086 seconds.
-[2020.12.06-13.48.37:489][729]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.12.06-13.48.37:489][729]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
-[2020.12.06-13.48.37:489][729]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
-[2020.12.06-13.48.37:490][729]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.12.06-13.48.37:497][729]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.12.06-13.48.37:501][729]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.12.06-13.48.37:537][729]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.12.06-13.48.37:537][729]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001EC9CCE1080), frame # 28729
-[2020.12.06-13.48.37:538][729]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001EC81CA7C00), frame # 28729
-[2020.12.06-13.48.37:541][729]LogUObjectHash: Compacting FUObjectHashTables data took   3.05ms
-[2020.12.06-13.48.37:575][730]LogPlayLevel: Display: Destroying online subsystem :Context_17
-[2020.12.06-13.48.48:044][397]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Content/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2020.12.06-13.48.48:067][397]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
-[2020.12.06-13.48.48:104][397]LogSavePackage: Moving '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/Main9514E126476D81FF732739A5957427F5.tmp' to '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Content/Maps/Main.umap'
-[2020.12.06-13.48.48:147][397]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main_BuiltData" FILE="../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Content/Maps/Main_BuiltData.uasset" SILENT=true
-[2020.12.06-13.48.48:189][397]LogSavePackage: Moving '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/Main_BuiltData068CE2E24A9AA0F67BF7B3A9116BB3E3.tmp' to '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Content/Maps/Main_BuiltData.uasset'
-[2020.12.06-13.48.48:208][397]AssetCheck: New page: Asset Save: multiple assets
-[2020.12.06-13.48.48:208][397]LogContentValidation: Display: Validating World /Game/Maps/Main.Main
-[2020.12.06-13.48.48:208][397]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Main_BuiltData.Main_BuiltData
-[2020.12.06-13.48.59:086][ 20]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
-[2020.12.06-13.48.59:925][ 21]LogSlate: Took 0.001528 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
-[2020.12.06-13.49.01:843][149]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
-[2020.12.06-13.49.01:843][149]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.12.06-13.49.01:921][149]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
-[2020.12.06-13.49.15:483][899]LogTemp: Repeating last play command: Selected Viewport
-[2020.12.06-13.49.15:504][899]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.12.06-13.49.15:504][899]PIE: New page: PIE session: Main (6 בדצמ׳ 2020, 17:49:15)
-[2020.12.06-13.49.15:538][899]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
-[2020.12.06-13.49.15:541][899]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003261s)
-[2020.12.06-13.49.15:542][899]LogAIModule: Creating AISystem for world Main
-[2020.12.06-13.49.15:542][899]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001EC7F44AC00), frame # 30899
-[2020.12.06-13.49.15:543][899]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001EC75D55F80), frame # 30899
-[2020.12.06-13.49.15:543][899]LogPlayLevel: PIE: World Init took: (0.001789s)
-[2020.12.06-13.49.15:543][899]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.005268s)
-[2020.12.06-13.49.15:569][899]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
-[2020.12.06-13.49.15:572][899]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.12.06-13.49.15:572][899]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.12.06-13.49.15:572][899]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.12.06-13.49.15:572][899]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.12.06-13.49.15:572][899]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.12.06-13.49.15:572][899]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.12.06-13.49.15:572][899]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.12.06-13.49.15:572][899]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.12.06-13.49.15:572][899]LogAudio: Display: Using built-in audio occlusion.
-[2020.12.06-13.49.15:572][899]LogAudioMixer: Display: Initializing audio mixer.
-[2020.12.06-13.49.15:580][899]LogAudioMixer: Display: 0: FrontLeft
-[2020.12.06-13.49.15:580][899]LogAudioMixer: Display: 1: FrontRight
-[2020.12.06-13.49.15:603][899]LogAudioMixer: Display: Using Audio Device S32D850-8 (NVIDIA High Definition Audio)
-[2020.12.06-13.49.15:603][899]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.12.06-13.49.15:603][899]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.12.06-13.49.15:603][899]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.12.06-13.49.15:604][899]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.12.06-13.49.15:617][899]LogInit: FAudioDevice initialized.
-[2020.12.06-13.49.15:624][899]LogLoad: Game class is 'BP_GameModeBase_C'
-[2020.12.06-13.49.15:627][899]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2020.12.06-15.49.15
-[2020.12.06-13.49.15:627][899]LogWorld: Bringing up level for play took: 0.001508
-[2020.12.06-13.49.15:627][899]LogOnline: OSS: Creating online subsystem instance for: :Context_20
-[2020.12.06-13.49.15:630][899]PIE: Server logged in
-[2020.12.06-13.49.15:631][899]PIE: Play in editor total start time 0.127 seconds.
-[2020.12.06-13.49.22:078][661]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.12.06-13.49.22:078][661]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
-[2020.12.06-13.49.22:078][661]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
-[2020.12.06-13.49.22:079][661]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.12.06-13.49.22:086][661]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.12.06-13.49.22:089][661]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.12.06-13.49.22:129][661]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.12.06-13.49.22:130][661]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001EC75D55F80), frame # 31661
-[2020.12.06-13.49.22:130][661]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001EC7F44AC00), frame # 31661
-[2020.12.06-13.49.22:133][661]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
-[2020.12.06-13.49.22:169][662]LogPlayLevel: Display: Destroying online subsystem :Context_20
-[2020.12.06-13.50.06:815][938]LogTemp: Repeating last play command: Selected Viewport
-[2020.12.06-13.50.06:837][938]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.12.06-13.50.06:837][938]PIE: New page: PIE session: Main (6 בדצמ׳ 2020, 17:50:06)
-[2020.12.06-13.50.06:867][938]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
-[2020.12.06-13.50.06:870][938]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003330s)
-[2020.12.06-13.50.06:871][938]LogAIModule: Creating AISystem for world Main
-[2020.12.06-13.50.06:871][938]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001EC0D6EE200), frame # 31938
-[2020.12.06-13.50.06:871][938]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001EC86ECEE80), frame # 31938
-[2020.12.06-13.50.06:871][938]LogPlayLevel: PIE: World Init took: (0.001306s)
-[2020.12.06-13.50.06:872][938]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.004826s)
-[2020.12.06-13.50.06:897][938]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
-[2020.12.06-13.50.06:899][938]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.12.06-13.50.06:899][938]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.12.06-13.50.06:899][938]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.12.06-13.50.06:899][938]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.12.06-13.50.06:899][938]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.12.06-13.50.06:899][938]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.12.06-13.50.06:899][938]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.12.06-13.50.06:899][938]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.12.06-13.50.06:899][938]LogAudio: Display: Using built-in audio occlusion.
-[2020.12.06-13.50.06:899][938]LogAudioMixer: Display: Initializing audio mixer.
-[2020.12.06-13.50.06:908][938]LogAudioMixer: Display: 0: FrontLeft
-[2020.12.06-13.50.06:908][938]LogAudioMixer: Display: 1: FrontRight
-[2020.12.06-13.50.06:931][938]LogAudioMixer: Display: Using Audio Device S32D850-8 (NVIDIA High Definition Audio)
-[2020.12.06-13.50.06:931][938]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.12.06-13.50.06:931][938]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.12.06-13.50.06:931][938]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.12.06-13.50.06:932][938]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.12.06-13.50.06:944][938]LogInit: FAudioDevice initialized.
-[2020.12.06-13.50.06:953][938]LogLoad: Game class is 'BP_GameModeBase_C'
-[2020.12.06-13.50.06:955][938]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2020.12.06-15.50.06
-[2020.12.06-13.50.06:955][938]LogWorld: Bringing up level for play took: 0.001121
-[2020.12.06-13.50.06:955][938]LogOnline: OSS: Creating online subsystem instance for: :Context_21
-[2020.12.06-13.50.06:959][938]PIE: Server logged in
-[2020.12.06-13.50.06:959][938]PIE: Play in editor total start time 0.123 seconds.
-[2020.12.06-13.50.17:819][722]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.12.06-13.50.17:819][722]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
-[2020.12.06-13.50.17:819][722]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
-[2020.12.06-13.50.17:819][722]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.12.06-13.50.17:826][722]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.12.06-13.50.17:829][722]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.12.06-13.50.17:851][722]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.12.06-13.50.17:868][722]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001EC86ECEE80), frame # 32722
-[2020.12.06-13.50.17:868][722]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001EC0D6EE200), frame # 32722
-[2020.12.06-13.50.17:870][722]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
-[2020.12.06-13.50.17:904][723]LogPlayLevel: Display: Destroying online subsystem :Context_21
-[2020.12.06-13.50.22:421][868]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Content/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2020.12.06-13.50.22:446][868]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
-[2020.12.06-13.50.22:476][868]LogSavePackage: Moving '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/Main502A6AE7484F7CD31F866D820145237E.tmp' to '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Content/Maps/Main.umap'
-[2020.12.06-13.50.22:517][868]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main_BuiltData" FILE="../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Content/Maps/Main_BuiltData.uasset" SILENT=true
-[2020.12.06-13.50.22:551][868]LogSavePackage: Moving '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/Main_BuiltData3FD5793D4A8CF224EF0525BA116E05EE.tmp' to '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Content/Maps/Main_BuiltData.uasset'
-[2020.12.06-13.50.22:569][868]AssetCheck: New page: Asset Save: multiple assets
-[2020.12.06-13.50.22:569][868]LogContentValidation: Display: Validating World /Game/Maps/Main.Main
-[2020.12.06-13.50.22:569][868]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Main_BuiltData.Main_BuiltData
-[2020.12.06-14.01.44:019][741]Candidate modules for hot reload:
-[2020.12.06-14.01.44:019][741]  ToonTanks
-[2020.12.06-14.01.44:019][741]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,5426 ToonTanksEditor Win64 Development -Project="C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/ToonTanks.uproject" "C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/ToonTanks.uproject"  -IgnoreJunk]
-[2020.12.06-14.01.44:022][741]Warning: Starting HotReload took  0.0s.
-[2020.12.06-14.02.09:978][882]CompilerResultsLog: New page: Compilation - 6 בדצמ׳ 2020, 18:02:09
-[2020.12.06-14.02.09:978][882]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TOMER\Documents\Unreal Projects\ToonTanks).
-[2020.12.06-14.02.09:978][882]CompilerResultsLog: Parsing headers for ToonTanksEditor
-[2020.12.06-14.02.09:978][882]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TOMER\Documents\Unreal Projects\ToonTanks\ToonTanks.uproject" "C:\Users\TOMER\Documents\Unreal Projects\ToonTanks\Intermediate\Build\Win64\ToonTanksEditor\Development\ToonTanksEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\TOMER\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-[2020.12.06-14.02.09:978][882]CompilerResultsLog: Reflection code generated for ToonTanksEditor in 10.5629691 seconds
-[2020.12.06-14.02.09:978][882]CompilerResultsLog: Building ToonTanksEditor...
-[2020.12.06-14.02.09:978][882]CompilerResultsLog: Using Visual Studio 2019 14.26.28806 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-[2020.12.06-14.02.09:979][882]CompilerResultsLog: Building 13 actions with 8 processes...
-[2020.12.06-14.02.09:979][882]CompilerResultsLog:   [1/13] ToonTanks.init.gen.cpp
-[2020.12.06-14.02.09:979][882]CompilerResultsLog:   [2/13] PawnTank.gen.cpp
-[2020.12.06-14.02.09:979][882]CompilerResultsLog:   [3/13] PawnTurret.gen.cpp
-[2020.12.06-14.02.09:979][882]CompilerResultsLog:   [4/13] PawnBase.gen.cpp
-[2020.12.06-14.02.09:979][882]CompilerResultsLog:   [5/13] ProjectileBase.gen.cpp
-[2020.12.06-14.02.09:979][882]CompilerResultsLog:   [6/13] PawnTank.cpp
-[2020.12.06-14.02.09:979][882]CompilerResultsLog:   [7/13] PawnBase.cpp
-[2020.12.06-14.02.09:979][882]CompilerResultsLog:    C:\Users\TOMER\Documents\Unreal Projects\ToonTanks\Source\ToonTanks\Pawns\PawnBase.cpp(61) : error C2039: 'SpawnSounAtLocation': is not a member of 'UGameplayStatics'
-[2020.12.06-14.02.09:979][882]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h(47): note: see declaration of 'UGameplayStatics'
-[2020.12.06-14.02.09:979][882]CompilerResultsLog:    C:\Users\TOMER\Documents\Unreal Projects\ToonTanks\Source\ToonTanks\Pawns\PawnBase.cpp(61) : error C3861: 'SpawnSounAtLocation': identifier not found
-[2020.12.06-14.02.09:979][882]CompilerResultsLog:   [8/13] PawnTurret.cpp
-[2020.12.06-14.02.09:979][882]CompilerResultsLog:   [9/13] TankGameModeBase.cpp
-[2020.12.06-14.02.09:979][882]CompilerResultsLog:   [10/13] ProjectileBase.cpp
-[2020.12.06-14.02.09:979][882]LogMainFrame: MainFrame: Module compiling took 25.964 seconds
-[2020.12.06-14.02.09:979][882]Warning: HotReload failed, recompile failed
-[2020.12.06-14.02.15:976][122]Candidate modules for hot reload:
-[2020.12.06-14.02.15:976][122]  ToonTanks
-[2020.12.06-14.02.15:977][122]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,1639 ToonTanksEditor Win64 Development -Project="C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/ToonTanks.uproject" "C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/ToonTanks.uproject"  -IgnoreJunk]
-[2020.12.06-14.02.15:979][122]Warning: Starting HotReload took  0.0s.
-[2020.12.06-14.02.23:135][482]CompilerResultsLog: New page: Compilation - 6 בדצמ׳ 2020, 18:02:23
-[2020.12.06-14.02.23:135][482]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TOMER\Documents\Unreal Projects\ToonTanks).
-[2020.12.06-14.02.23:135][482]CompilerResultsLog: Building ToonTanksEditor...
-[2020.12.06-14.02.23:135][482]CompilerResultsLog: Using Visual Studio 2019 14.26.28806 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-[2020.12.06-14.02.23:135][482]CompilerResultsLog: Building 4 actions with 8 processes...
-[2020.12.06-14.02.23:135][482]CompilerResultsLog:   [1/4] PawnBase.cpp
-[2020.12.06-14.02.23:135][482]CompilerResultsLog:   [2/4] UE4Editor-ToonTanks-1639.lib
-[2020.12.06-14.02.23:135][482]CompilerResultsLog:      Creating library C:\Users\TOMER\Documents\Unreal Projects\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-1639.lib and object C:\Users\TOMER\Documents\Unreal Projects\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-1639.exp
-[2020.12.06-14.02.23:135][482]CompilerResultsLog:   [3/4] UE4Editor-ToonTanks-1639.dll
-[2020.12.06-14.02.23:135][482]CompilerResultsLog:      Creating library C:\Users\TOMER\Documents\Unreal Projects\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-1639.suppressed.lib and object C:\Users\TOMER\Documents\Unreal Projects\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-1639.suppressed.exp
-[2020.12.06-14.02.23:135][482]CompilerResultsLog:   [4/4] ToonTanksEditor.target
-[2020.12.06-14.02.23:135][482]CompilerResultsLog: Total time in Parallel executor: 5.62 seconds
-[2020.12.06-14.02.23:135][482]CompilerResultsLog: Total execution time: 6.77 seconds
-[2020.12.06-14.02.23:135][482]LogMainFrame: MainFrame: Module compiling took 7.162 seconds
-[2020.12.06-14.02.23:161][482]LogClass: Could not find existing class PawnBase in package /Script/ToonTanks for HotReload, assuming new class
-[2020.12.06-14.02.23:161][482]LogClass: Could not find existing class PawnTank in package /Script/ToonTanks for HotReload, assuming new class
-[2020.12.06-14.02.23:161][482]LogClass: Could not find existing class PawnTurret in package /Script/ToonTanks for HotReload, assuming new class
-[2020.12.06-14.02.23:163][482]LogClass: Could not find existing class ProjectileBase in package /Script/ToonTanks for HotReload, assuming new class
-[2020.12.06-14.02.23:163][482]LogClass: Function OnHit is new.
-[2020.12.06-14.02.23:173][482]LogHotReload: Re-instancing PawnBase after hot-reload.
-[2020.12.06-14.02.23:207][482]LogHotReload: Re-instancing PawnTank after hot-reload.
-[2020.12.06-14.02.23:269][482]LogHotReload: Re-instancing PawnTurret after hot-reload.
-[2020.12.06-14.02.23:318][482]LogHotReload: Re-instancing ProjectileBase after hot-reload.
-[2020.12.06-14.02.23:376][482]LogContentBrowser: Native class hierarchy updated for 'ToonTanks' in 0.0007 seconds. Added 7 classes and 7 folders.
-[2020.12.06-14.02.23:380][482]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
-[2020.12.06-14.02.23:476][482]LogContentBrowser: Native class hierarchy populated in 0.0127 seconds. Added 3434 classes and 828 folders.
-[2020.12.06-14.02.23:476][482]Display: HotReload took  7.5s.
-[2020.12.06-14.02.32:874][588]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Pawns/BP_PawnTurret.BP_PawnTurret
-[2020.12.06-14.02.35:823][719]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
-[2020.12.06-14.02.35:823][719]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.12.06-14.02.35:909][719]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Pawns/BP_PawnTurret.BP_PawnTurret
-[2020.12.06-14.02.53:749][ 80]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Explode_Audio...
-[2020.12.06-14.02.53:749][ 80]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/Assets/Audio/Explode_Audio.Explode_Audio will be modified from 40 to 40.
-[2020.12.06-14.02.53:898][ 80]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 77328 while cooking SoundWave /Game/Assets/Audio/Explode_Audio.Explode_Audio.
-[2020.12.06-14.02.58:615][413]BlueprintLog: New page: Compile BP_PawnTurret
-[2020.12.06-14.02.58:732][413]LogUObjectHash: Compacting FUObjectHashTables data took   5.58ms
-[2020.12.06-14.02.59:192][438]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawns/BP_PawnTurret" FILE="../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Content/Blueprints/Pawns/BP_PawnTurret.uasset" SILENT=true
-[2020.12.06-14.02.59:230][438]LogSavePackage: Moving '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/BP_PawnTurret176FC71248BF772606BE9E89ABE8B5BD.tmp' to '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Content/Blueprints/Pawns/BP_PawnTurret.uasset'
-[2020.12.06-14.02.59:251][438]AssetCheck: New page: Asset Save: BP_PawnTurret
-[2020.12.06-14.02.59:252][438]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Pawns/BP_PawnTurret.BP_PawnTurret
-[2020.12.06-14.03.06:705][971]BlueprintLog: New page: Compile BP_PawnTank
-[2020.12.06-14.03.06:791][971]LogUObjectHash: Compacting FUObjectHashTables data took   4.49ms
-[2020.12.06-14.03.07:233][994]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawns/BP_PawnTank" FILE="../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Content/Blueprints/Pawns/BP_PawnTank.uasset" SILENT=true
-[2020.12.06-14.03.07:269][994]LogSavePackage: Moving '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/BP_PawnTankB53B71B3444938217FE1A7AB4913591C.tmp' to '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Content/Blueprints/Pawns/BP_PawnTank.uasset'
-[2020.12.06-14.03.07:283][994]AssetCheck: New page: Asset Save: BP_PawnTank
-[2020.12.06-14.03.07:283][994]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
-[2020.12.06-14.03.33:259][723]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Thud_Audio...
-[2020.12.06-14.03.33:259][723]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/Assets/Audio/Thud_Audio.Thud_Audio will be modified from 40 to 40.
-[2020.12.06-14.03.33:286][723]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 78372 while cooking SoundWave /Game/Assets/Audio/Thud_Audio.Thud_Audio.
-[2020.12.06-14.03.42:327][928]BlueprintLog: New page: Compile BP_ProjectileBase
-[2020.12.06-14.03.42:392][928]LogUObjectHash: Compacting FUObjectHashTables data took   5.01ms
-[2020.12.06-14.03.43:234][976]LogSavePackage: Moving '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/BP_ProjectileBase5B33E5DE46F0571094353D8190CB9A94.tmp' to '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Content/Blueprints/Actors/BP_ProjectileBase.uasset'
-[2020.12.06-14.03.43:253][976]AssetCheck: New page: Asset Save: BP_ProjectileBase
-[2020.12.06-14.03.43:253][976]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Actors/BP_ProjectileBase.BP_ProjectileBase
-[2020.12.06-14.03.46:765][291]LogTemp: Repeating last play command: Selected Viewport
-[2020.12.06-14.03.46:789][291]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.12.06-14.03.46:789][291]PIE: New page: PIE session: Main (6 בדצמ׳ 2020, 18:03:46)
-[2020.12.06-14.03.46:822][291]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
-[2020.12.06-14.03.46:825][291]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003202s)
-[2020.12.06-14.03.46:827][291]LogAIModule: Creating AISystem for world Main
-[2020.12.06-14.03.46:827][291]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001EC7E1F0600), frame # 39291
-[2020.12.06-14.03.46:827][291]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001EC9D2EB240), frame # 39291
-[2020.12.06-14.03.46:827][291]LogPlayLevel: PIE: World Init took: (0.001819s)
-[2020.12.06-14.03.46:827][291]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.005197s)
-[2020.12.06-14.03.46:861][291]LogUObjectHash: Compacting FUObjectHashTables data took   4.44ms
-[2020.12.06-14.03.46:863][291]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.12.06-14.03.46:863][291]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.12.06-14.03.46:863][291]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.12.06-14.03.46:863][291]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.12.06-14.03.46:863][291]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.12.06-14.03.46:863][291]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.12.06-14.03.46:863][291]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.12.06-14.03.46:863][291]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.12.06-14.03.46:864][291]LogAudio: Display: Using built-in audio occlusion.
-[2020.12.06-14.03.46:864][291]LogAudioMixer: Display: Initializing audio mixer.
-[2020.12.06-14.03.46:873][291]LogAudioMixer: Display: 0: FrontLeft
-[2020.12.06-14.03.46:873][291]LogAudioMixer: Display: 1: FrontRight
-[2020.12.06-14.03.46:899][291]LogAudioMixer: Display: Using Audio Device S32D850-8 (NVIDIA High Definition Audio)
-[2020.12.06-14.03.46:899][291]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.12.06-14.03.46:899][291]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.12.06-14.03.46:899][291]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.12.06-14.03.46:900][291]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.12.06-14.03.46:913][291]LogInit: FAudioDevice initialized.
-[2020.12.06-14.03.46:924][291]LogLoad: Game class is 'BP_GameModeBase_C'
-[2020.12.06-14.03.46:926][291]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2020.12.06-16.03.46
-[2020.12.06-14.03.46:927][291]LogWorld: Bringing up level for play took: 0.001201
-[2020.12.06-14.03.46:927][291]LogOnline: OSS: Creating online subsystem instance for: :Context_24
-[2020.12.06-14.03.46:930][291]PIE: Server logged in
-[2020.12.06-14.03.46:931][291]PIE: Play in editor total start time 0.145 seconds.
-[2020.12.06-14.04.31:653][618]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.12.06-14.04.31:653][618]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
-[2020.12.06-14.04.31:653][618]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
-[2020.12.06-14.04.31:653][618]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.12.06-14.04.31:661][618]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.12.06-14.04.31:666][618]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.12.06-14.04.31:716][618]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.12.06-14.04.31:717][618]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001EC9D2EB240), frame # 44618
-[2020.12.06-14.04.31:717][618]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001EC7E1F0600), frame # 44618
-[2020.12.06-14.04.31:721][618]LogUObjectHash: Compacting FUObjectHashTables data took   3.55ms
-[2020.12.06-14.04.31:761][619]LogPlayLevel: Display: Destroying online subsystem :Context_24
-[2020.12.06-14.05.01:084][120]Candidate modules for hot reload:
-[2020.12.06-14.05.01:084][120]  ToonTanks
-[2020.12.06-14.05.01:084][120]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,1086 ToonTanksEditor Win64 Development -Project="C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/ToonTanks.uproject" "C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/ToonTanks.uproject"  -IgnoreJunk]
-[2020.12.06-14.05.01:087][120]Warning: Starting HotReload took  0.0s.
-[2020.12.06-14.05.05:888][249]CompilerResultsLog: New page: Compilation - 6 בדצמ׳ 2020, 18:05:05
-[2020.12.06-14.05.05:888][249]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TOMER\Documents\Unreal Projects\ToonTanks).
-[2020.12.06-14.05.05:888][249]CompilerResultsLog: Building ToonTanksEditor...
-[2020.12.06-14.05.05:888][249]CompilerResultsLog: Using Visual Studio 2019 14.26.28806 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-[2020.12.06-14.05.05:888][249]CompilerResultsLog: Building 4 actions with 8 processes...
-[2020.12.06-14.05.05:888][249]CompilerResultsLog:   [1/4] ProjectileBase.cpp
-[2020.12.06-14.05.05:888][249]CompilerResultsLog:   [2/4] UE4Editor-ToonTanks-1086.lib
-[2020.12.06-14.05.05:888][249]CompilerResultsLog:      Creating library C:\Users\TOMER\Documents\Unreal Projects\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-1086.lib and object C:\Users\TOMER\Documents\Unreal Projects\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-1086.exp
-[2020.12.06-14.05.05:888][249]CompilerResultsLog:   [3/4] UE4Editor-ToonTanks-1086.dll
-[2020.12.06-14.05.05:888][249]CompilerResultsLog:      Creating library C:\Users\TOMER\Documents\Unreal Projects\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-1086.suppressed.lib and object C:\Users\TOMER\Documents\Unreal Projects\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-1086.suppressed.exp
-[2020.12.06-14.05.05:888][249]CompilerResultsLog:   [4/4] ToonTanksEditor.target
-[2020.12.06-14.05.05:888][249]CompilerResultsLog: Total time in Parallel executor: 3.47 seconds
-[2020.12.06-14.05.05:889][249]CompilerResultsLog: Total execution time: 4.66 seconds
-[2020.12.06-14.05.05:889][249]LogMainFrame: MainFrame: Module compiling took 4.809 seconds
-[2020.12.06-14.05.05:948][249]LogHotReload: Re-instancing ProjectileBase after hot-reload.
-[2020.12.06-14.05.06:015][249]LogContentBrowser: Native class hierarchy updated for 'ToonTanks' in 0.0006 seconds. Added 7 classes and 7 folders.
-[2020.12.06-14.05.06:020][249]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
-[2020.12.06-14.05.06:150][249]LogContentBrowser: Native class hierarchy populated in 0.0131 seconds. Added 3434 classes and 828 folders.
-[2020.12.06-14.05.06:150][249]Display: HotReload took  5.1s.
-[2020.12.06-14.05.09:306][337]LogTemp: Repeating last play command: Selected Viewport
-[2020.12.06-14.05.09:336][337]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.12.06-14.05.09:336][337]PIE: New page: PIE session: Main (6 בדצמ׳ 2020, 18:05:09)
-[2020.12.06-14.05.09:336][337]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
-[2020.12.06-14.05.09:339][337]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003367s)
-[2020.12.06-14.05.09:340][337]LogAIModule: Creating AISystem for world Main
-[2020.12.06-14.05.09:340][337]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001EC8E11EE00), frame # 45337
-[2020.12.06-14.05.09:340][337]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001EC94CE0E00), frame # 45337
-[2020.12.06-14.05.09:341][337]LogPlayLevel: PIE: World Init took: (0.001254s)
-[2020.12.06-14.05.09:341][337]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.004763s)
-[2020.12.06-14.05.09:408][337]LogUObjectHash: Compacting FUObjectHashTables data took   6.34ms
-[2020.12.06-14.05.09:412][337]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.12.06-14.05.09:412][337]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.12.06-14.05.09:412][337]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.12.06-14.05.09:412][337]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.12.06-14.05.09:412][337]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.12.06-14.05.09:412][337]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.12.06-14.05.09:412][337]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.12.06-14.05.09:412][337]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.12.06-14.05.09:413][337]LogAudio: Display: Using built-in audio occlusion.
-[2020.12.06-14.05.09:413][337]LogAudioMixer: Display: Initializing audio mixer.
-[2020.12.06-14.05.09:420][337]LogAudioMixer: Display: 0: FrontLeft
-[2020.12.06-14.05.09:420][337]LogAudioMixer: Display: 1: FrontRight
-[2020.12.06-14.05.09:446][337]LogAudioMixer: Display: Using Audio Device S32D850-8 (NVIDIA High Definition Audio)
-[2020.12.06-14.05.09:446][337]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.12.06-14.05.09:446][337]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.12.06-14.05.09:447][337]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.12.06-14.05.09:447][337]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.12.06-14.05.09:459][337]LogInit: FAudioDevice initialized.
-[2020.12.06-14.05.09:466][337]LogLoad: Game class is 'BP_GameModeBase_C'
-[2020.12.06-14.05.09:468][337]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2020.12.06-16.05.09
-[2020.12.06-14.05.09:468][337]LogWorld: Bringing up level for play took: 0.001111
-[2020.12.06-14.05.09:468][337]LogOnline: OSS: Creating online subsystem instance for: :Context_25
-[2020.12.06-14.05.09:471][337]PIE: Server logged in
-[2020.12.06-14.05.09:472][337]PIE: Play in editor total start time 0.141 seconds.
-[2020.12.06-14.05.21:082][697]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.12.06-14.05.21:082][697]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
-[2020.12.06-14.05.21:082][697]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
-[2020.12.06-14.05.21:083][697]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.12.06-14.05.21:094][697]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.12.06-14.05.21:100][697]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.12.06-14.05.21:136][697]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.12.06-14.05.21:158][697]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001EC8E11EE00), frame # 46697
-[2020.12.06-14.05.21:158][697]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001EC94CE0E00), frame # 46697
-[2020.12.06-14.05.21:163][697]LogUObjectHash: Compacting FUObjectHashTables data took   5.47ms
-[2020.12.06-14.05.21:201][698]LogPlayLevel: Display: Destroying online subsystem :Context_25
-[2020.12.06-14.05.25:035][823]LogTemp: Repeating last play command: Selected Viewport
-[2020.12.06-14.05.25:063][823]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.12.06-14.05.25:063][823]PIE: New page: PIE session: Main (6 בדצמ׳ 2020, 18:05:25)
-[2020.12.06-14.05.25:063][823]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
-[2020.12.06-14.05.25:066][823]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003164s)
-[2020.12.06-14.05.25:067][823]LogAIModule: Creating AISystem for world Main
-[2020.12.06-14.05.25:067][823]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001EC145E0A00), frame # 46823
-[2020.12.06-14.05.25:067][823]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001ECC021A5C0), frame # 46823
-[2020.12.06-14.05.25:068][823]LogPlayLevel: PIE: World Init took: (0.001241s)
-[2020.12.06-14.05.25:068][823]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.004527s)
-[2020.12.06-14.05.25:106][823]LogUObjectHash: Compacting FUObjectHashTables data took   4.31ms
-[2020.12.06-14.05.25:108][823]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.12.06-14.05.25:108][823]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.12.06-14.05.25:108][823]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.12.06-14.05.25:108][823]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.12.06-14.05.25:108][823]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.12.06-14.05.25:108][823]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.12.06-14.05.25:108][823]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.12.06-14.05.25:108][823]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.12.06-14.05.25:109][823]LogAudio: Display: Using built-in audio occlusion.
-[2020.12.06-14.05.25:109][823]LogAudioMixer: Display: Initializing audio mixer.
-[2020.12.06-14.05.25:117][823]LogAudioMixer: Display: 0: FrontLeft
-[2020.12.06-14.05.25:117][823]LogAudioMixer: Display: 1: FrontRight
-[2020.12.06-14.05.25:142][823]LogAudioMixer: Display: Using Audio Device S32D850-8 (NVIDIA High Definition Audio)
-[2020.12.06-14.05.25:142][823]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.12.06-14.05.25:142][823]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.12.06-14.05.25:142][823]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.12.06-14.05.25:143][823]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.12.06-14.05.25:154][823]LogInit: FAudioDevice initialized.
-[2020.12.06-14.05.25:164][823]LogLoad: Game class is 'BP_GameModeBase_C'
-[2020.12.06-14.05.25:166][823]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2020.12.06-16.05.25
-[2020.12.06-14.05.25:167][823]LogWorld: Bringing up level for play took: 0.001200
-[2020.12.06-14.05.25:167][823]LogOnline: OSS: Creating online subsystem instance for: :Context_26
-[2020.12.06-14.05.25:170][823]PIE: Server logged in
-[2020.12.06-14.05.25:171][823]PIE: Play in editor total start time 0.108 seconds.
-[2020.12.06-14.05.34:562][942]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.12.06-14.05.34:562][942]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
-[2020.12.06-14.05.34:562][942]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
-[2020.12.06-14.05.34:562][942]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.12.06-14.05.34:570][942]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.12.06-14.05.34:576][942]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.12.06-14.05.34:627][942]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.12.06-14.05.34:628][942]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001ECC021A5C0), frame # 47942
-[2020.12.06-14.05.34:628][942]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001EC145E0A00), frame # 47942
-[2020.12.06-14.05.34:633][942]LogUObjectHash: Compacting FUObjectHashTables data took   4.96ms
-[2020.12.06-14.05.34:677][943]LogPlayLevel: Display: Destroying online subsystem :Context_26
-[2020.12.06-14.05.55:338][911]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Content/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2020.12.06-14.05.55:377][911]LogUObjectHash: Compacting FUObjectHashTables data took   4.23ms
-[2020.12.06-14.05.55:416][911]LogSavePackage: Moving '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/Main3F0EAD8E4ADA7D643176BA970EC3F1E3.tmp' to '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Content/Maps/Main.umap'
-[2020.12.06-14.05.55:459][911]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main_BuiltData" FILE="../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Content/Maps/Main_BuiltData.uasset" SILENT=true
-[2020.12.06-14.05.55:499][911]LogSavePackage: Moving '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/Main_BuiltDataEB4FA7D04A6D0DDEC23A43980E6470BF.tmp' to '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Content/Maps/Main_BuiltData.uasset'
-[2020.12.06-14.05.55:522][911]AssetCheck: New page: Asset Save: multiple assets
-[2020.12.06-14.05.55:522][911]LogContentValidation: Display: Validating World /Game/Maps/Main.Main
-[2020.12.06-14.05.55:522][911]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Main_BuiltData.Main_BuiltData
+[2020.12.08-16.12.15:213][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.12.08-16.12.15:213][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.12.08-16.12.15:213][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/Config/Windows/Engine.ini]
+[2020.12.08-16.12.15:213][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.12.08-16.12.15:213][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2020.12.08-16.12.15:213][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2020.12.08-16.12.15:213][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/Config/Windows/Engine.ini]
+[2020.12.08-16.12.15:213][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/Config/Windows/Engine.ini]
+[2020.12.08-16.12.15:213][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.12.08-16.12.15:213][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.12.08-16.12.15:213][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.12.08-16.12.15:213][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.12.08-16.12.15:213][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.12.08-16.12.15:213][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.12.08-16.12.15:213][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.12.08-16.12.15:213][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.12.08-16.12.15:213][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.12.08-16.12.15:213][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.12.08-16.12.15:213][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.12.08-16.12.15:213][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.12.08-16.12.15:214][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.12.08-16.12.15:214][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.12.08-16.12.15:214][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/Config/Windows/Engine.ini]
+[2020.12.08-16.12.15:214][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.12.08-16.12.15:214][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.12.08-16.12.15:214][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.12.08-16.12.15:214][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.12.08-16.12.15:214][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.12.08-16.12.15:214][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.12.08-16.12.15:214][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.12.08-16.12.15:214][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.12.08-16.12.15:214][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.12.08-16.12.15:214][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.12.08-16.12.15:214][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.12.08-16.12.15:214][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.12.08-16.12.15:214][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.12.08-16.12.15:214][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/Config/Windows/Engine.ini]
+[2020.12.08-16.12.15:214][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/Config/Windows/Engine.ini]
+[2020.12.08-16.12.15:217][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/Config/Windows/Scalability.ini]
+[2020.12.08-16.12.15:217][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.12.08-16.12.15:217][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.12.08-16.12.15:217][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/Config/Windows/Scalability.ini]
+[2020.12.08-16.12.15:217][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.12.08-16.12.15:217][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/Config/Windows/Scalability.ini]
+[2020.12.08-16.12.15:217][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.12.08-16.12.15:217][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.12.08-16.12.15:217][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.12.08-16.12.15:217][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.12.08-16.12.15:217][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.12.08-16.12.15:217][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.12.08-16.12.15:217][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.12.08-16.12.15:217][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.12.08-16.12.15:217][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.12.08-16.12.15:217][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.12.08-16.12.15:217][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.12.08-16.12.15:217][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.12.08-16.12.15:217][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.12.08-16.12.15:217][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.12.08-16.12.15:217][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.12.08-16.12.15:217][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.12.08-16.12.15:217][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.12.08-16.12.15:217][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.12.08-16.12.15:217][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/Config/Windows/Scalability.ini]
+[2020.12.08-16.12.15:217][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.12.08-16.12.15:217][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.12.08-16.12.15:217][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.12.08-16.12.15:217][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.12.08-16.12.15:217][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.12.08-16.12.15:217][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.12.08-16.12.15:217][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.12.08-16.12.15:218][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.12.08-16.12.15:218][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.12.08-16.12.15:218][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.12.08-16.12.15:218][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.12.08-16.12.15:218][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.12.08-16.12.15:218][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.12.08-16.12.15:218][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.12.08-16.12.15:218][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.12.08-16.12.15:218][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.12.08-16.12.15:218][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.12.08-16.12.15:218][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.12.08-16.12.15:218][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.12.08-16.12.15:218][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.12.08-16.12.15:218][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.12.08-16.12.15:218][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.12.08-16.12.15:218][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.12.08-16.12.15:218][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.12.08-16.12.15:218][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.12.08-16.12.15:218][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.12.08-16.12.15:218][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.12.08-16.12.15:218][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.12.08-16.12.15:218][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.12.08-16.12.15:218][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.12.08-16.12.15:218][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/Config/Windows/Scalability.ini]
+[2020.12.08-16.12.15:218][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.12.08-16.12.15:218][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.12.08-16.12.15:218][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.12.08-16.12.15:218][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.12.08-16.12.15:218][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.12.08-16.12.15:218][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.12.08-16.12.15:218][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.12.08-16.12.15:218][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.12.08-16.12.15:218][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.12.08-16.12.15:218][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/Config/Windows/Scalability.ini]
+[2020.12.08-16.12.15:218][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.12.08-16.12.15:218][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.12.08-16.12.15:218][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.12.08-16.12.15:218][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.12.08-16.12.15:218][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.12.08-16.12.15:218][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.12.08-16.12.15:218][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.12.08-16.12.15:218][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.12.08-16.12.15:218][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.12.08-16.12.15:218][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.12.08-16.12.15:218][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.12.08-16.12.15:218][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.12.08-16.12.15:218][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.12.08-16.12.15:218][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.12.08-16.12.15:218][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.12.08-16.12.15:218][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.12.08-16.12.15:218][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.12.08-16.12.15:218][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.12.08-16.12.15:218][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.12.08-16.12.15:218][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.12.08-16.12.15:218][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.12.08-16.12.15:218][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.12.08-16.12.15:218][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.12.08-16.12.15:219][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.12.08-16.12.15:219][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.12.08-16.12.15:219][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.12.08-16.12.15:219][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/Config/Windows/Scalability.ini]
+[2020.12.08-16.12.15:219][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.12.08-16.12.15:219][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.12.08-16.12.15:219][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/Config/Windows/Scalability.ini]
+[2020.12.08-16.12.15:219][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.12.08-16.12.15:219][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.12.08-16.12.15:219][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.12.08-16.12.15:219][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.12.08-16.12.15:219][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.12.08-16.12.15:219][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.12.08-16.12.15:219][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.12.08-16.12.15:219][  0]LogInit: Selected Device Profile: [Windows]
+[2020.12.08-16.12.15:219][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.12.08-16.12.15:219][  0]LogHAL: Display: Platform has ~ 16 GB [17161457664 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.12.08-16.12.15:219][  0]LogInit: Going up to parent DeviceProfile []
+[2020.12.08-16.12.15:219][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/Config/Windows/Scalability.ini]
+[2020.12.08-16.12.15:219][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.12.08-16.12.15:219][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.12.08-16.12.15:219][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/Config/Windows/Scalability.ini]
+[2020.12.08-16.12.15:219][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.12.08-16.12.15:219][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/Config/Windows/Scalability.ini]
+[2020.12.08-16.12.15:219][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.12.08-16.12.15:219][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.12.08-16.12.15:220][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.12.08-16.12.15:220][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.12.08-16.12.15:220][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.12.08-16.12.15:220][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.12.08-16.12.15:220][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.12.08-16.12.15:220][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.12.08-16.12.15:220][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.12.08-16.12.15:220][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.12.08-16.12.15:220][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.12.08-16.12.15:220][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.12.08-16.12.15:220][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.12.08-16.12.15:220][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.12.08-16.12.15:220][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.12.08-16.12.15:220][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.12.08-16.12.15:220][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.12.08-16.12.15:220][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.12.08-16.12.15:220][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/Config/Windows/Scalability.ini]
+[2020.12.08-16.12.15:220][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.12.08-16.12.15:220][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.12.08-16.12.15:220][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.12.08-16.12.15:220][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.12.08-16.12.15:220][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.12.08-16.12.15:220][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.12.08-16.12.15:220][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.12.08-16.12.15:220][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.12.08-16.12.15:220][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.12.08-16.12.15:220][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.12.08-16.12.15:220][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.12.08-16.12.15:220][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.12.08-16.12.15:220][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.12.08-16.12.15:221][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.12.08-16.12.15:221][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.12.08-16.12.15:221][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.12.08-16.12.15:221][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.12.08-16.12.15:221][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.12.08-16.12.15:221][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.12.08-16.12.15:221][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.12.08-16.12.15:221][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.12.08-16.12.15:221][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.12.08-16.12.15:221][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.12.08-16.12.15:221][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.12.08-16.12.15:221][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.12.08-16.12.15:221][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.12.08-16.12.15:221][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.12.08-16.12.15:221][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.12.08-16.12.15:221][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.12.08-16.12.15:221][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.12.08-16.12.15:221][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/Config/Windows/Scalability.ini]
+[2020.12.08-16.12.15:221][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.12.08-16.12.15:221][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.12.08-16.12.15:221][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.12.08-16.12.15:221][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.12.08-16.12.15:221][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.12.08-16.12.15:221][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.12.08-16.12.15:221][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.12.08-16.12.15:221][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.12.08-16.12.15:221][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.12.08-16.12.15:221][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/Config/Windows/Scalability.ini]
+[2020.12.08-16.12.15:221][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.12.08-16.12.15:221][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.12.08-16.12.15:221][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.12.08-16.12.15:222][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.12.08-16.12.15:222][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.12.08-16.12.15:222][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.12.08-16.12.15:222][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.12.08-16.12.15:222][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.12.08-16.12.15:222][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.12.08-16.12.15:222][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.12.08-16.12.15:222][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.12.08-16.12.15:222][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.12.08-16.12.15:222][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.12.08-16.12.15:222][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.12.08-16.12.15:222][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.12.08-16.12.15:222][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.12.08-16.12.15:222][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.12.08-16.12.15:222][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.12.08-16.12.15:222][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.12.08-16.12.15:222][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.12.08-16.12.15:222][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.12.08-16.12.15:222][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.12.08-16.12.15:222][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.12.08-16.12.15:222][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.12.08-16.12.15:222][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.12.08-16.12.15:222][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.12.08-16.12.15:222][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/Config/Windows/Scalability.ini]
+[2020.12.08-16.12.15:222][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.12.08-16.12.15:222][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.12.08-16.12.15:222][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/Config/Windows/Scalability.ini]
+[2020.12.08-16.12.15:222][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.12.08-16.12.15:222][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.12.08-16.12.15:222][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.12.08-16.12.15:222][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.12.08-16.12.15:222][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.12.08-16.12.15:223][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.12.08-16.12.15:223][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.12.08-16.12.15:223][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.12.08-16.12.15:267][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.12.08-16.12.15:267][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.12.08-16.12.15:267][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.12.08-16.12.15:267][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/Config/Windows/Engine.ini]
+[2020.12.08-16.12.15:267][  0]LogInit: Computer: TOMER-PC
+[2020.12.08-16.12.15:267][  0]LogInit: User: TOMER
+[2020.12.08-16.12.15:267][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.12.08-16.12.15:267][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.12.08-16.12.15:268][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2020.12.08-16.12.15:268][  0]LogMemory: Platform Memory Stats for Windows
+[2020.12.08-16.12.15:268][  0]LogMemory: Process Physical Memory: 115.89 MB used, 115.90 MB peak
+[2020.12.08-16.12.15:268][  0]LogMemory: Process Virtual Memory: 104.43 MB used, 104.43 MB peak
+[2020.12.08-16.12.15:268][  0]LogMemory: Physical Memory: 10040.66 MB used,  6325.79 MB free, 16366.44 MB total
+[2020.12.08-16.12.15:268][  0]LogMemory: Virtual Memory: 5153.18 MB used,  134212576.00 MB free, 134217728.00 MB total
+[2020.12.08-16.12.15:282][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.12.08-16.12.16:562][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.12.08-16.12.16:566][  0]LogInit: Using OS detected language (en-US).
+[2020.12.08-16.12.16:566][  0]LogInit: Using OS detected locale (he-IL).
+[2020.12.08-16.12.16:624][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.12.08-16.12.20:947][  0]LogInit: Setting process to per monitor DPI aware
+[2020.12.08-16.12.22:167][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.12.08-16.12.22:167][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.12.08-16.12.32:813][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.12.08-16.12.32:813][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.12.08-16.12.32:813][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.12.08-16.12.32:813][  0]LogD3D11RHI: D3D11 adapters:
+[2020.12.08-16.12.32:909][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2020.12.08-16.12.32:909][  0]LogD3D11RHI:       4043/0/8183 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.12.08-16.12.32:912][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.12.08-16.12.32:912][  0]LogD3D11RHI:       0/0/8183 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.12.08-16.12.32:912][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.12.08-16.12.32:921][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.12.08-16.12.32:921][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2020.12.08-16.12.32:921][  0]LogWindows: EnumDisplayDevices:
+[2020.12.08-16.12.32:921][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2020.12.08-16.12.32:922][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2020.12.08-16.12.32:922][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2020.12.08-16.12.32:922][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2020.12.08-16.12.32:922][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.12.08-16.12.32:922][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2020.12.08-16.12.32:922][  0]LogD3D11RHI:   Driver Version: 432.00 (internal:26.21.14.3200, unified:432.00)
+[2020.12.08-16.12.32:922][  0]LogD3D11RHI:      Driver Date: 7-24-2019
+[2020.12.08-16.12.32:922][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
+[2020.12.08-16.12.32:979][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.12.08-16.12.32:981][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2020.12.08-16.12.32:981][  0]LogD3D11RHI: Async texture creation enabled
+[2020.12.08-16.12.32:981][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.12.08-16.12.33:042][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.12.08-16.12.34:096][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.12.08-16.12.34:190][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.12.08-16.12.34:190][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.12.08-16.12.34:190][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.12.08-16.12.34:190][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.12.08-16.12.34:190][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.12.08-16.12.34:190][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.12.08-16.12.34:190][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.12.08-16.12.34:190][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.12.08-16.12.34:190][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.12.08-16.12.34:190][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.12.08-16.12.34:323][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.12.08-16.12.34:323][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.12.08-16.12.34:375][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.12.08-16.12.34:452][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.12.08-16.12.34:482][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.12.08-16.12.34:510][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.12.08-16.12.34:544][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.12.08-16.12.34:579][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.12.08-16.12.34:616][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.12.08-16.12.34:761][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.12.08-16.12.34:761][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.12.08-16.12.34:801][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.12.08-16.12.34:801][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.12.08-16.12.34:829][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.12.08-16.12.34:857][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.12.08-16.12.34:933][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.12.08-16.12.34:977][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.12.08-16.12.34:977][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.12.08-16.12.35:118][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.12.08-16.12.36:017][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Intermediate/Shaders/WorkingDirectory/15848/).
+[2020.12.08-16.12.36:017][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/TOMER/AppData/Local/Temp/UnrealShaderWorkingDir/6E1DE00644BD4463E4868D8350D1DEFC/'.
+[2020.12.08-16.12.36:018][  0]LogXGEController: Cleaning working directory: C:/Users/TOMER/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.12.08-16.12.36:018][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.12.08-16.12.36:018][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.12.08-16.12.36:018][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.12.08-16.12.48:283][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.12.08-16.12.49:394][  0]LogDerivedDataCache: Loaded boot cache 1.11s 75MB C:/Users/TOMER/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.12.08-16.12.49:394][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/TOMER/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.12.08-16.12.49:394][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.12.08-16.12.49:394][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.12.08-16.12.49:394][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.12.08-16.12.49:394][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.12.08-16.12.49:433][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.12.08-16.12.49:434][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.12.08-16.12.49:434][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.12.08-16.12.49:435][  0]LogDerivedDataCache: Using Local data cache path C:/Users/TOMER/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.12.08-16.12.49:435][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.12.08-16.12.49:435][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.12.08-16.12.49:505][  0]LogSlate: Using FreeType 2.10.0
+[2020.12.08-16.12.49:608][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.12.08-16.12.50:681][  0]LogAssetRegistry: FAssetRegistry took 0.0032 seconds to start up
+[2020.12.08-16.12.51:010][  0]LogInit: Selected Device Profile: [Windows]
+[2020.12.08-16.12.53:250][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.12.08-16.12.53:251][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.12.08-16.12.53:251][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.12.08-16.12.53:251][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.12.08-16.12.53:251][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.12.08-16.12.53:810][  0]LogNetVersion: ToonTanks 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 281104731)
+[2020.12.08-16.13.15:102][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000025F2902F2C0), frame # 0
+[2020.12.08-16.13.15:102][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000025F28FFEAC0), frame # 0
+[2020.12.08-16.13.15:104][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000025F2915E800), frame # 0
+[2020.12.08-16.13.15:226][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.078444 seconds
+[2020.12.08-16.13.15:232][  0]LogUObjectArray: 15913 objects as part of root set at end of initial load.
+[2020.12.08-16.13.15:232][  0]LogUObjectAllocator: 3964304 out of 0 bytes used by permanent object pool.
+[2020.12.08-16.13.15:232][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.12.08-16.13.19:861][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.12.08-16.13.19:937][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.12.08-16.13.20:743][  0]SourceControl: Source control is disabled
+[2020.12.08-16.13.20:743][  0]SourceControl: Source control is disabled
+[2020.12.08-16.13.20:836][  0]SourceControl: Source control is disabled
+[2020.12.08-16.13.20:879][  0]SourceControl: Source control is disabled
+[2020.12.08-16.13.21:005][  0]SourceControl: Source control is disabled
+[2020.12.08-16.13.23:976][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.12.08-16.13.24:235][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.12.08-16.13.24:235][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.12.08-16.13.24:712][  0]LogOcInput: OculusInput pre-init called
+[2020.12.08-16.13.24:795][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.12.08-16.13.24:795][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.12.08-16.13.25:528][  0]LogEngine: Initializing Engine...
+[2020.12.08-16.13.25:531][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.12.08-16.13.25:531][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.12.08-16.13.25:532][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.12.08-16.13.26:272][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.12.08-16.13.26:316][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.12.08-16.13.26:316][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000025F2B6BDA00), frame # 0
+[2020.12.08-16.13.26:316][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000025F2B6DE340), frame # 0
+[2020.12.08-16.13.26:333][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.08-16.13.26:333][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.08-16.13.26:333][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.08-16.13.26:333][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.08-16.13.26:333][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.08-16.13.26:333][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.08-16.13.26:333][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.08-16.13.26:333][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.08-16.13.26:333][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.08-16.13.26:333][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.08-16.13.26:534][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.08-16.13.26:534][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.12.08-16.13.26:597][  0]LogAudioMixer: Display: Using Audio Device S32D850-8 (NVIDIA High Definition Audio)
+[2020.12.08-16.13.26:597][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.08-16.13.26:617][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.08-16.13.26:617][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.08-16.13.26:618][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.08-16.13.26:619][  0]LogInit: FAudioDevice initialized.
+[2020.12.08-16.13.26:620][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.12.08-16.13.26:785][  0]LogDerivedDataCache: Saved boot cache 0.17s 75MB C:/Users/TOMER/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.12.08-16.13.26:792][  0]LogInit: Texture streaming: Enabled
+[2020.12.08-16.13.26:934][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.12.08-16.13.26:934][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.12.08-16.13.26:936][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.12.08-16.13.27:049][  0]LogInit: Transaction tracking system initialized
+[2020.12.08-16.13.27:253][  0]BlueprintLog: New page: Editor Load
+[2020.12.08-16.13.28:524][  0]LocalizationService: Localization service is disabled
+[2020.12.08-16.13.31:464][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.12.08-16.13.31:464][  0]LogCook: Display: Mobile HDR setting 1
+[2020.12.08-16.13.31:985][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/Content/' took 0.01s
+[2020.12.08-16.13.34:335][  0]SourceControl: Source control is disabled
+[2020.12.08-16.13.34:335][  0]LogUnrealEdMisc: Loading editor; pre map load, took 120.124
+[2020.12.08-16.13.34:335][  0]Cmd: MAP LOAD FILE="../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Content/Maps/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.12.08-16.13.34:335][  0]LightingResults: New page: Lighting Build
+[2020.12.08-16.13.34:336][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.12.08-16.13.34:336][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.08-16.13.34:336][  0]MapCheck: New page: Map Check
+[2020.12.08-16.13.34:336][  0]LightingResults: New page: Lighting Build
+[2020.12.08-16.13.34:345][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000025F2B6BDA00), frame # 0
+[2020.12.08-16.13.34:345][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000025F2B6DE340), frame # 0
+[2020.12.08-16.13.34:347][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2020.12.08-16.13.35:863][  0]LogAIModule: Creating AISystem for world Main
+[2020.12.08-16.13.35:863][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000025F1B294400), frame # 0
+[2020.12.08-16.13.35:863][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000025F1B25A980), frame # 0
+[2020.12.08-16.13.36:007][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.12.08-16.13.36:019][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2020.12.08-16.13.36:019][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.12.08-16.13.36:019][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.208ms to complete.
+[2020.12.08-16.13.36:019][  0]LogFileHelpers: Loading map 'Main' took 1.685
+[2020.12.08-16.13.36:023][  0]LogUnrealEdMisc: Total Editor Startup Time, took 121.813
+[2020.12.08-16.13.36:294][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.08-16.13.36:309][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.08-16.13.36:321][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.08-16.13.36:332][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.08-16.13.36:364][  0]LogCollectionManager: Loaded 0 collections in 0.002373 seconds
+[2020.12.08-16.13.36:382][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/Collections/' took 0.00s
+[2020.12.08-16.13.36:382][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/Content/Developers/TOMER/Collections/' took 0.00s
+[2020.12.08-16.13.36:382][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TOMER/Documents/Unreal Projects/ToonTanks/Content/Collections/' took 0.00s
+[2020.12.08-16.13.36:382][  0]LogContentBrowser: Native class hierarchy populated in 0.0121 seconds. Added 3434 classes and 828 folders.
+[2020.12.08-16.13.36:385][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.12.08-16.13.40:514][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.12.08-16.13.40:520][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 2 classes and 0 folders.
+[2020.12.08-16.13.40:626][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2020.12.08-16.13.40:626][  0]LogLoad: (Engine Initialization) Total time: 126.42 seconds
+[2020.12.08-16.13.40:626][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.12.08-16.13.40:679][  0]LogAssetRegistry: Asset discovery search completed in 49.9999 seconds
+[2020.12.08-16.13.40:683][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2020.12.08-16.13.40:684][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.12.08-16.13.40:807][  0]LogSlate: Took 0.112971 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.12.08-16.13.40:848][  0]LogSlate: Took 0.039010 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.12.08-16.13.40:989][  0]LogSlate: Took 0.136518 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.12.08-16.13.41:553][  1]LogRenderer: Reallocating scene render targets to support 804x416 Format 10 NumSamples 1 (Frame:1).
+[2020.12.08-16.13.42:247][  3]LogSlate: Took 0.022473 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.12.08-16.14.03:969][277]LogRenderer: Reallocating scene render targets to support 804x916 Format 10 NumSamples 1 (Frame:221).
+[2020.12.08-16.20.10:353][520]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.12.08-16.20.39:668][728]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2020.12.08-16.20.52:542][848]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2020.12.08-16.20.52:649][848]LogMetaData: Removing '/Game/Blueprints/General/BP_CamShakeExplode.SKEL_BP_CamShakeExplode_C' ref from Metadata '/Game/Blueprints/General/BP_CamShakeHit_2.PackageMetaData'
+[2020.12.08-16.20.52:649][848]LogMetaData: Removing '/Game/Blueprints/General/BP_CamShakeExplode.BP_CamShakeExplode_C' ref from Metadata '/Game/Blueprints/General/BP_CamShakeHit_2.PackageMetaData'
+[2020.12.08-16.20.53:324][848]LogSavePackage: Moving '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/BP_CamShakeExplode2967A9094B1A5A8A401AA3BF00505F8F.tmp' to '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Content/Blueprints/General/BP_CamShakeExplode.uasset'
+[2020.12.08-16.20.53:542][848]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2020.12.08-16.20.53:563][848]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2020.12.08-16.20.53:573][848]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2020.12.08-16.20.53:605][848]AssetCheck: New page: Asset Save: BP_CamShakeExplode
+[2020.12.08-16.20.53:605][848]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/General/BP_CamShakeExplode.BP_CamShakeExplode
+[2020.12.08-16.20.57:171][261]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/General/BP_CamShakeHit.BP_CamShakeHit
+[2020.12.08-16.20.58:136][261]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 125 classes and 0 folders.
+[2020.12.08-16.21.00:091][261]LogSlate: Took 0.135097 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.12.08-16.21.03:089][510]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/General/BP_CamShakeExplode.BP_CamShakeExplode
+[2020.12.08-16.21.07:856][880]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2020.12.08-16.21.07:857][880]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.08-16.21.07:924][880]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/General/BP_CamShakeExplode.BP_CamShakeExplode
+[2020.12.08-16.21.13:799][ 87]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/General/BP_CamShakeHit" FILE="../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Content/Blueprints/General/BP_CamShakeHit.uasset" SILENT=true
+[2020.12.08-16.21.13:810][ 87]LogSavePackage: Moving '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/BP_CamShakeHitD9169FBC409DAB8B2352EDBC002802DF.tmp' to '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Content/Blueprints/General/BP_CamShakeHit.uasset'
+[2020.12.08-16.21.13:828][ 87]AssetCheck: New page: Asset Save: BP_CamShakeHit
+[2020.12.08-16.21.13:829][ 87]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/General/BP_CamShakeHit.BP_CamShakeHit
+[2020.12.08-16.24.44:050][970]LogUObjectHash: Compacting FUObjectHashTables data took   3.25ms
+[2020.12.08-16.24.44:051][970]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Main' took 0.033
+[2020.12.08-16.24.44:052][970]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/General/BP_CamShakeHit] ([1] browsable assets)...
+[2020.12.08-16.24.44:052][970]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/General/BP_CamShakeHit]
+[2020.12.08-16.24.45:956][970]LogSavePackage: Moving '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/BP_CamShakeHit_Auto1DB08FC38456D8AAB3741DBB7787641AA.tmp' to '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/Autosaves/Game/Blueprints/General/BP_CamShakeHit_Auto1.uasset'
+[2020.12.08-16.24.45:958][970]LogFileHelpers: Auto-saving content packages took 1.908
+[2020.12.08-16.26.17:299][684]BlueprintLog: New page: Compile BP_CamShakeHit
+[2020.12.08-16.26.17:328][684]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2020.12.08-16.26.17:442][684]LogSlate: Took 0.098792 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.12.08-16.26.17:945][727]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/General/BP_CamShakeHit" FILE="../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Content/Blueprints/General/BP_CamShakeHit.uasset" SILENT=true
+[2020.12.08-16.26.17:963][727]LogSavePackage: Moving '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/BP_CamShakeHitD473B9EB4F2F3BCF257C38B2EFA149E2.tmp' to '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Content/Blueprints/General/BP_CamShakeHit.uasset'
+[2020.12.08-16.26.17:981][727]AssetCheck: New page: Asset Save: BP_CamShakeHit
+[2020.12.08-16.26.17:981][727]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/General/BP_CamShakeHit.BP_CamShakeHit
+[2020.12.08-16.27.10:875][389]BlueprintLog: New page: Compile BP_CamShakeExplode
+[2020.12.08-16.27.10:903][389]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2020.12.08-16.27.14:027][698]LogSavePackage: Moving '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/BP_CamShakeExplode3F6CACB24A7ABEFFE362E89DFE45840C.tmp' to '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Content/Blueprints/General/BP_CamShakeExplode.uasset'
+[2020.12.08-16.27.14:043][698]AssetCheck: New page: Asset Save: BP_CamShakeExplode
+[2020.12.08-16.27.14:043][698]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/General/BP_CamShakeExplode.BP_CamShakeExplode
+[2020.12.08-16.28.11:441][273]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Content/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.12.08-16.28.11:469][273]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2020.12.08-16.28.11:506][273]LogSavePackage: Moving '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/Main1BE2EE9D4F83C85F493C5BAEB1CE6AE4.tmp' to '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Content/Maps/Main.umap'
+[2020.12.08-16.28.11:553][273]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main_BuiltData" FILE="../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Content/Maps/Main_BuiltData.uasset" SILENT=true
+[2020.12.08-16.28.11:602][273]LogSavePackage: Moving '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Saved/Main_BuiltData0C7CF2F2473AAF91E048F49113C8E723.tmp' to '../../../../../../Users/TOMER/Documents/Unreal Projects/ToonTanks/Content/Maps/Main_BuiltData.uasset'
+[2020.12.08-16.28.11:618][273]AssetCheck: New page: Asset Save: multiple assets
+[2020.12.08-16.28.11:618][273]LogContentValidation: Display: Validating World /Game/Maps/Main.Main
+[2020.12.08-16.28.11:618][273]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Main_BuiltData.Main_BuiltData
